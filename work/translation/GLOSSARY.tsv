@@ -153,11 +153,11 @@ original	reading	kind	zh_form	zh_modern	en	romanized	conf	note	pages
 ワラシエ		T	ワラシエ	瓦拉几亚	Wallachia	Warashie	確		k007L
 スラホニー		T	スラホニー	斯拉沃尼亚	Slavonia	Surahonī	確		k007L
 セルビー		T	セルビー	塞尔维亚	Serbia	Serubī	確		k007L
-クルマーナ		T	クルマーナ	（未详，或指克罗地亚）	Kurumāna	Kurumāna	疑	western neighbour of Hungary; the 坤輿圖識 Hungary entry has no border list (the author used another source); unidentified — perhaps Germania (ゲルマーナ) or Croatia	k007L
+クルマーナ		T	クルマーナ	（未详，或指克罗地亚）	Kurumāna	Kurumāna	疑	地學正宗 巻五 翁加里亞: 西ハ前章記スル所ノ諸地ニ限ル (the Austrian lands); the author wrote クルマーナ — probably ゲルマーナ (Germania) without dakuten, his previous page being 獨逸都	k007L
 プレスビユルク		T	プレスビユルク	普雷斯堡（布拉迪斯拉发）	Pressburg (Bratislava)	Puresubiyuruku	確		k007L
 波羅尼亞	ホロニア	T	波罗尼亚	波兰	Poland	Horonia	確		k008L k012L
 獨逸都連合州		P	德意志联合州	德意志联合州	the German Confederation		確		k008L
-ミーコウ		T	ミーコウ	梅胡夫	Miechów	Mīkō	推	"not from 坤輿圖識, which gives the capital of Poland as ワルスコウ (Warsaw); probably Miechów, seat of the Kraków Voivodeship in 1816, as the 割注 ""カラカウ道ノ首府"" says (note)"	k008L
+ミーコウ		T	ミーコウ	梅胡夫	Miechów	Mīkō	確	地學正宗 巻三 波羅尼亞 都府: 一 ミーコウ カラカウ道ノ首府 (Miechów, seat of the Kraków voivodeship 1816); the author took it for the capital (坤輿圖識: ワルスコウ = Warsaw)	k008L
 カラカウ		T	カラカウ	克拉科夫	Kraków	Karakau	確	also ガラカウ: the Free City of Kraków (1815–46)	k008L
 以西把尼亞	イスパニア	T	以西把尼亚	西班牙	Spain	Isupania	確		k009L
 ビユスカイセ海		T	ビユスカイセ海	比斯开湾	the Bay of Biscay	Biyusukaise	確	Du. Biskaaise Zee	k009L
@@ -227,9 +227,9 @@ original	reading	kind	zh_form	zh_modern	en	romanized	conf	note	pages
 新ブロンス		T	新ブロンス	新不伦瑞克	New Brunswick	Shinburonsu	確		k025L
 ハルリハキス		T	ハルリハキス	哈利法克斯	Halifax	Harurihakisu	確		k025L
 大北海		P	大北海	大北海	the Great Northern Sea (North Atlantic)		確		k025L
-西島 聖多黙 福島		P	西岛、圣多默、福岛	西岛、圣多默、福岛	Nishijima, São Tomé, the Fortunate Isles		疑	聖多黙 = São Tomé; 福島 = the Fortunate Isles (Canaries) of the Jesuit maps; 西島 unclear	q005R
+西島 聖多黙 福島		P	西岛、圣多默、福岛	西岛、圣多默、福岛	the islands west of Africa: São Tomé, the Fortunate Isles		確	"西島 = ""the western islands"" (not a name); 聖多黙 and 福島 are among the 同洲有名諸島 of Africa in 坤輿圖識 巻三 (with 麻打曷矢加爾, ボウルボン, 聖意勒納)"	q005R
 坤輿圖識		P	《坤舆图识》	《坤舆图识》	Kon'yo zushiki		確	箕作省吾, 1845	q005L
-地學正宗		P	《地学正宗》	《地学正宗》	Chigaku seisō		確	杉田玄端, 1851	q005L
+地學正宗		P	《地学正宗》	《地学正宗》	Chigaku seisō		確	杉田成卿閲, 嘉永四年 (1851), 天真樓藏板; copy: Tohoku Univ. 狩野文庫 (IIIF)	q005L
 外蕃譯史		P	《外蕃译史》	《外蕃译史》	Gaiban yakushi		疑	no book of this title found	q005L
 坤輿界全圖		P	《坤舆界全图》	《坤舆界全图》	Kon'yo kai zenzu		疑	not found under this title; perhaps 箕作省吾『新製輿地全圖』(1844), companion of 坤輿圖識	q006L
 須原屋佐助	スハラヤサスケ	P	须原屋佐助	须原屋佐助	Suharaya Sasuke		確	publisher, 金華堂	k026R
