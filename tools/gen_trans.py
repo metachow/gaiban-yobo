@@ -68,6 +68,9 @@ def inline(s, lang):
     """Markup -> TeX: [^n] note marks, *emphasis*, 〔small note〕; font runs: CJK inside English
     (trcjk), Latin and digits inside Chinese (trlat), fallback faces for characters Noto lacks."""
     s = esc(s)
+    if lang == 'en':                          # straight double quotes -> curly (TeX makes both ”)
+        s = re.sub(r'(^|[\s(\[〔—])"', lambda m: m.group(1) + '“', s)
+        s = s.replace('"', '”')
     s = re.sub(r'\[\^(\d+)\]', lambda m: '\x01' + m.group(1) + '\x02', s)
     s = re.sub(r'\*([^*]+)\*', lambda m: '\x03' + m.group(1) + '\x04', s)
     out, run, cur = [], [], None
