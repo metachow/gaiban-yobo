@@ -1,0 +1,17 @@
+# 乾 scan 022 L: 天笠 (天竺). 10 columns.
+# 確認済 2026-11-14: c2 齊狼 ruby セイロン: a grey round spot at the upper right of セ (paper spot? not read as handakuten); c3 中ハ安日河 and c5 臥兒帝: a small solid dot beside the column (speck?), not transcribed
+# 確認済 2026-11-14: c6 別 ruby ワカウ (3rd kana may be ツ); c7 聰 ruby ソウ (ソ/ツ?); c7 慧: written like 王王 over 己 (琶-like), ruby ケイ; c8 又能讀書: 能 written with left ム+月 compressed and right like 去
+# c1/c2 圖伯《ツペツ》 at foot of c1, 特《ト》 at head of c2; c4/c5 莫《モン》 at foot of c4, 臥兒《ゴル》 at head of c5; c5/c6 弟《デー》 at foot of c5, 那瑪爾加《ネマルカ》 at head of c6
+# 異体: 徃 (c4 徃古: 彳+生)
+# 校: c1 天笠: written 竹+立 (笠) for 竺, also in the plate label
+# c3 前後二大部, c6/c7 別テ二ツ: 二 (numeral) as written
+天笠《テンヂク》〔一名|印度《インド》。〕此｜州《クニ》亜細亜洲《アヂアシウ》ノ一大部ニシテ總《ソウ》名也北ハ圖伯《ツペツ》
+特《ト》ニ界ヒ東ハ漢土《カラ》ニ接シ南ハ齊狼《セイロン》及ヒ諸島｜印度《インド》海ニ限
+リ西ハ百兒西亜《ペルシア》ニ隣《トナ》リ中ハ安日河ノ東西ニヨリ前後二
+大部ニ分ツ又數國ニ分テ各国ノ主｜自《ミヅカラ》王ト稱ス是徃古｜莫《モン》
+臥兒《ゴル》帝ヲ最初《サイシヨ》トス近年｜暎咭唎《イギリス》。佛蘭西《フランス》。和蘭《ヲランダ》。波爾杜尾爾《ホルトガル》。弟《デー》
+那瑪爾加《ネマルカ》。等来テ印度諸地ヲ押領ス是ニ於テ邦《クニ》人｜別《ワカウ》テ二
+ツトナル人物一ナラズト雖《イエド》モ天性｜聰慧《ソウケイ》ニシテ交ルニ愛
+情有リ又能｜讀《ドク》書｜術《ジツ》藝ヲ好ム氣候北部ハ寒ク南部ハ甚ダ
+熱ス故ニ山林四時｜緑《リヨク》葉アリ土地｜肥《コエ》テ五穀一歳ニ両度｜實《ミノル》
+北極地ヲ出ル叓八度ヨリ三十二度ニ至ル

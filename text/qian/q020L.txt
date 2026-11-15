@@ -1,0 +1,8 @@
+# 乾 scan 020 L: 亜爾黙尼亜. 5 columns.
+# 確認済 2026-11-14: c1 界 ruby サカイ (カ may be ガ); c2 歐羅巴 ruby read エウラツバ (1st kana may be ヱ); c3 壮 ruby ソウ (dakuten?); c4 併 ruby ヘイ (イ partly touches the glyph)
+# c3/c4 印度 split across columns: 印《イン》 at foot of c3, 度《ド》 at head of c4; c4 四十度ニツヨシ (= 強シ), last two kana carried to c5
+亜爾黙尼亜《アルメニア》此國北ハ黒海ニ界《サカイ》シ東ハ百兒西亜《ペルシア》ニ隣《トナ》リ南
+ハ亜細亜《アヂア》都兒格《トルコ》ニ接《ゼツ》シ西ハ歐羅巴《ヱウラツバ》都兒格ニ臨《ノゾ》ム四季有
+テ上国ナリ五穀ヨク熟《ジユク》シテ人物又勇｜壮《ソウ》ナリ此｜邦《クニ》古ハ印《イン》
+度《ド》ニ屬《ゾク》シ今世都兒格ニ併《ヘイ》ス北極地ヲ出ル叓四十度ニツ
+ヨシ

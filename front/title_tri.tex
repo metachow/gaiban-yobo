@@ -1,0 +1,12 @@
+% Title page of the trilingual edition (original + Chinese + English), after the cover.
+\begin{tikzpicture}[remember picture,overlay,shift={(current page.south west)},xshift=\edxshift,x=1mm,y=1mm]
+  \node[anchor=north,inner sep=0pt,text width=130mm,align=center] at (91,196) {%
+    {\edbody\fontsize{30pt}{40pt}\selectfont 外蕃容貌圖画\par}\vspace{3mm}
+    {\trzh\fontsize{12pt}{18pt}\selectfont\color{black!70}\iftrtitlekun 坤\else 乾\fi\par}\vspace{14mm}
+    {\trzh\bfseries\fontsize{19pt}{28pt}\selectfont 外蕃容貌图画\par}\vspace{6mm}
+    {\tren\fontsize{21pt}{27pt}\selectfont Illustrated Appearances\\ of Foreign Peoples\par}\vspace{2mm}
+    {\tren\itshape\fontsize{13pt}{18pt}\selectfont Gaiban yōbō zuga\par}\vspace{16mm}
+    {\trzh\fontsize{11pt}{18pt}\selectfont 原文　中文　{\tren English}\par}\vspace{24mm}
+    {\trzh\fontsize{10.5pt}{17pt}\selectfont 田川春道\,撰　倉田东岳\,画　安政二年（{\trlat 1855}）刊\par}
+    {\tren\fontsize{11pt}{16pt}\selectfont Text by Tagawa Harumichi, pictures by Kurata Tōgaku, Edo 1855\par}};
+\end{tikzpicture}

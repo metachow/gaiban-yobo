@@ -1,0 +1,13 @@
+# 乾 scan 026 L: 和蘭. 8 columns.
+# 確認済 2026-11-14: c7 度ミリ五十五度: the kana after 度 is written as three separate strokes (ミ), not the ヨ of c5 年ヨリ; transcribed as seen
+# c2 分ツテ: a brown speck above テ (not dakuten); c3 ム。ト: a small dot beside ム besides the circle (speck?)
+# c1 割注 〔ホルランド。|又和蘭。〕; c2/c3 。アムス / テルタム。 split across columns; c7/c8 ニイ / タル
+# 校: c7 度ミリ = 度ヨリ?
+涅垤兒蘭甸《ネーデルランデン》〔ホルランド。|又｜和蘭《ヲランダ》。〕此國西北ハ北海ニ限リ東ハ獨逸都《ドイツ》ニ隣
+リ南ハ佛蘭西《フランス》ニ接ス全國十七州ニ分ツテ都府ヲ。アムス
+テルタム。ト云人物｜温和《ヲンクワ》ニシテ學術ニ熟スコト諸州ニ冠
+又交易ヲ專《モツハラ》トシテ其利ヲウル叓多ク国内富饒ナリ我皇
+国寛永十八年ヨリ年々長崎エ入津ス氣候四季寒地ナレ
+ドモ内地ハ平和ニシテ能諸種ヲ産ス北部ハ平地多ク東
+南ハ山多シ北極地ヲ出ル叓四十九度ミリ五十五度ニイ
+タル

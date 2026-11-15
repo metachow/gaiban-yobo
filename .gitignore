@@ -1,0 +1,28 @@
+# LaTeX output, generated pages, built PDFs
+*.aux
+*.log
+*.out
+build/
+pages/
+*.pdf
+__pycache__/
+
+# large or derived: regenerate with the tools (see README and figures/README.md)
+# scans: tools/fetch_iiif.py (University of Tsukuba Library, NoC-CR)
+# plates, map, seals, cover textures: tools/make_plates.py, tools/make_covers.py, tools/cut_seal.py
+# fonts: see README (not redistributed here)
+scans/
+figures/*
+!figures/README.md
+fonts/
+
+# working files: reading copies, checks, agents' scratch, backups
+work/*
+!work/TRANSCRIPTION.md
+!work/translation/
+work/translation/names.tsv
+!work/review/
+work/review/tmp/
+work/review/text_before_ruby/
+work/review/*.png
+work/review/*_before.*

@@ -1,0 +1,15 @@
+% 書衣（表）: 柿渋色の紙に左上の題簽，右側に四つ目綴じ（右綴じの本）。
+% Positions measured on the cover scans (qian_003, kun_001); textures: tools/make_covers.py.
+% \edvol = qian | kun (set by the main file).
+\begin{tikzpicture}[remember picture,overlay,shift={(current page.south west)},xshift=\edxshift,x=1mm,y=1mm]
+  \node[anchor=south west,inner sep=0pt] at (0,0) {\includegraphics[width=182mm,height=251mm]{figures/cover_paper.jpg}};
+  % 題簽 (slip 42.5 x 186.5 mm at 5 mm from the left, 2.5 mm from the top) with a soft shadow
+  \fill[black,opacity=0.10] (5.6,61.4) rectangle (48.1,247.9);
+  \node[anchor=north west,inner sep=0pt] at (5,248.5)
+    {\includegraphics[width=42.5mm,height=186.5mm]{figures/slip_paper.jpg}};
+  \draw[slipink,line width=0.5mm] (6.6,246.9) rectangle (45.9,63.6);
+  \draw[slipink,line width=0.18mm] (7.7,245.8) rectangle (44.8,64.7);
+  \node[anchor=north west,inner sep=0pt] at (5,248.5)
+    {\includegraphics[width=42.5mm,height=186.5mm]{figures/slip_ink_\edvol.png}};
+  \sewing{171}{1}
+\end{tikzpicture}

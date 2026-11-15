@@ -1,0 +1,14 @@
+# 坤 scan 015 L: 泥乂利西亜. 7 columns.
+# 確認済 2026-11-14: 乂: two crossing strokes only (乂, not 又/文); 昆: 日 over 比 (亜昆心域, not 毘)
+# 割注 ゼネ|カムビー: no dakuten visible on カ
+# col 4: the 。 before エチヲピヤ stands at the head of the 割注 right line; written after ハ (parser needs a base char)
+# 確認済 2026-11-14: 亜昆心域 ruby ends ニ + vertical stroke, read ニー; 己 (己/已 ambiguous); 己 ruby ヲノレ (ノ may be the tail of ヲ)
+# 確認済 2026-11-14: エチヲピヤ, 歐邏巴 ruby エウラツパ: first kana エ (could be ヱ)
+# 確認済 2026-11-14: 図の標題も「乂」に上の一画が加わった形
+泥乂利西亜《ニギリシア》〔一名。ゼネ|カムビー。〕此國北ハ大｜沙漠《シヤバク》ニ限リ東ハ亜昆心域《アビシニー》ニ
+隣リ南ハ爲匿亜《ゴイネア》ニ接シ西ハ熱河《ゼネガ》ニ至ル全國三部ニ分ツ
+テ各君長アリ其首府ヲ東布《トムビユク》ト云人物ノ風俗賤ク土人多
+ハ。〔ヱチヲピヤ。種|即黒人ナリ〕其面色黒ク其性甚タ愚昧《グマイ》ニシテ禮義ヲ知ラズ
+近傍諸州ノ人ヲ掠《カス》メ或ハ自国ノ婦女小兒ヲ歐邏巴《ヱウラツパ》人ニ
+賣與フ西洋人是ヲ己《ヲノレ》カ奴僕《ヌボク》トス氣候炎熱ニシテ堪《タヱ》ガタ
+シ北極地ヲ出ル叓八度ヨリ十八度ニ至ル

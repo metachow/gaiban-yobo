@@ -1,0 +1,22 @@
+head_zh: 凡例
+head_en: Editorial Note
+zh: |
+  本书重排田川春道撰、仓田东岳画《外蕃容貌图画》（安政二年〔1855〕刊，乾坤二册）的原文，并附中文、英文译文。底本为筑波大学附属图书馆藏本。每国占两开：先是原书的人物图与说明文（仿原书竖排重排），后是译文，右页中文，左页英文。原文的整理体例见书后日文凡例。
+
+  译文照原文翻译，不增删。原书的史实错误和传说照译，在注中指出。书中对各国人民的评价反映的是十九世纪中叶日本人的认识，照原文译出，不代表译者的看法。
+
+  专名在每页第一次出现时写原书写法，括注今名，以后用今名。原书的汉字音译改用简体字照录，片假名地名保留片假名。“北极出地若干度”指北极星高出地平的度数，也就是北纬若干度；“南极出地”同理。日本年号在注中附公历年份。
+
+  注释从简，只说明专名、明显的错误、年代和影响文意的文字问题。原文的读法问题见书后校记。点击译文页的国名可以回到原文页。
+
+  中文、英文译文由 Claude（Anthropic 的人工智能）翻译，未经专家审校，欢迎指正。
+en: |
+  This book re-typesets *Gaiban yōbō zuga* (Illustrated Appearances of Foreign Peoples), text by Tagawa Harumichi and pictures by Kurata Tōgaku, published in Edo in 1855 in two volumes, and adds Chinese and English translations. The base copy is held by the University of Tsukuba Library. Each country takes two openings: first the original picture and description, set vertically after the original, then the translation, Chinese on the right page and English on the left. The editorial principles for the original are given in Japanese at the end of the volume.
+
+  The translation follows the original without additions or omissions. Errors of fact and legends are translated as written and pointed out in the notes. The author's judgements about the peoples of the world reflect Japanese views of the mid-nineteenth century; they are translated as written and are not the translator's.
+
+  Proper names are given at their first mention on a page in the author's form, romanized from the reading printed beside the characters, with the modern name in brackets; after that the modern name is used. "The pole stands so many degrees above the horizon" gives the latitude. Japanese era names are converted to Western years in the notes.
+
+  The notes are kept light: names, obvious errors, dates, and textual points that affect the meaning. Questions of reading the original are discussed in the textual notes at the end of the volume. The country name at the head of a translation page links back to the original page.
+
+  The Chinese and English translations were made by Claude, an AI model by Anthropic, and have not been reviewed by a specialist. Corrections are welcome.

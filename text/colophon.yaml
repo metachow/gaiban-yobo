@@ -1,0 +1,56 @@
+# 刊記 (坤 last leaf, scan kun_026): free columns placed as in the original.
+# x = column centre, y = top of the first character, mm from the page box's top-left,
+# measured on the scan (column projection); tools/make_layout.py adds the right page's
+# offset. font: gyo = 衡山行書 (the cursive notice), default Klee One.
+# Notice (c1-3, 行草) -- uncertain readings:
+# Re-read at full resolution 2026-11-13: 私 -> 舩 (= 船; ships of all countries), three times.
+#   KuroNet OCR (2026-11-13) confirms 船 and reads c2 お添一覧 … 物分り御様画き; adopted 添, 様, 画き
+#   ? c2 の (KuroNet 御)
+k026R:
+  label:
+    - {text: 猶又次編ニ萬國舩の画圖悉穿鑿致并ニ舩の印本, x: 149.3, y: 50.7, size: 7.4, pitch: 8.8, font: gyo}
+    - {text: お添一覧ニ何國乃舩とお分りの様画き且又, x: 137.6, y: 50.8, size: 7.4, pitch: 9.2, font: gyo}
+    - {text: 日本ヨリ萬國へ乃里數悉相印追刻仕候, x: 126.8, y: 51.6, size: 7.4, pitch: 10.2, font: gyo}
+    - {text: 安政二乙卯年正月吉辰, x: 110.3, y: 20.8, size: 9.4, pitch: 10.4}
+    - {text: 田川春道撰, x: 94.0, y: 112.0, size: 16.0, pitch: 19.2}
+    - {text: 倉田東岳画, x: 72.4, y: 112.2, size: 16.0, pitch: 19.2}
+    - {text: 製本賣捌, x: 25.6, y: 40.5, size: 10.0, pitch: 12.1}
+    - {text: 金華堂　須原屋　佐助, x: 25.6, y: 108.0, size: 10.0, pitch: 11.6}
+    - {text: 日本橋通四丁目, x: 38.6, y: 124.3, size: 6.4, pitch: 7.9}
+  images:
+    - {file: figures/seal_kun026_b.png, x: 81.5, y: 210.5, w: 19.5}
+    - {file: figures/seal_kun026_a.png, x: 63.0, y: 212.0, w: 19.0}
+k026L:
+  label:
+    - {text: 東都, x: 121.5, y: 22.3, size: 19.0, pitch: 22.5}
+    - {text: 書林, x: 58.2, y: 27.3, size: 18.0, pitch: 20.5}
+    - {text: 日本橋通一丁目, x: 158.3, y: 96.5, size: 6.4, pitch: 7.5}
+    - {text: 同　　　　二丁目, x: 148.3, y: 95.8, size: 6.4, pitch: 7.5}
+    - {text: 同, x: 136.0, y: 95.4, size: 6.4, pitch: 7.5}
+    - {text: 芝　　神明前, x: 126.7, y: 94.7, size: 6.4, pitch: 7.5}
+    - {text: 同, x: 116.5, y: 94.7, size: 6.4, pitch: 7.5}
+    - {text: 同, x: 106.1, y: 94.7, size: 6.4, pitch: 7.5}
+    - {text: 日本橋通十軒店, x: 96.4, y: 94.3, size: 6.4, pitch: 7.5}
+    - {text: 本町　　三丁目, x: 84.1, y: 93.6, size: 6.4, pitch: 7.5}
+    - {text: 大傳馬町二丁目, x: 75.2, y: 94.0, size: 6.4, pitch: 7.5}
+    - {text: 横山町　一丁目, x: 65.2, y: 95.1, size: 6.4, pitch: 7.5}
+    - {text: 同　　　三丁目, x: 53.1, y: 94.4, size: 6.4, pitch: 7.5}
+    - {text: 淺草茅町二丁目, x: 44.2, y: 94.3, size: 6.4, pitch: 7.5}
+    - {text: 下谷池之端仲町, x: 31.1, y: 93.8, size: 6.4, pitch: 7.5}
+    - {text: 同　御成街通, x: 23.0, y: 93.8, size: 6.4, pitch: 7.5}
+    - {text: 同, x: 10.7, y: 93.8, size: 6.4, pitch: 7.5}
+    - {text: 須原屋茂兵衛, x: 158.3, y: 170.7, size: 8.8, pitch: 10.3}
+    - {text: 山城屋佐兵衛, x: 148.3, y: 170.2, size: 8.8, pitch: 10.3}
+    - {text: 小林新兵衛, x: 136.0, y: 169.5, size: 8.8, pitch: 12.3}
+    - {text: 岡田屋嘉七, x: 126.7, y: 168.7, size: 8.8, pitch: 12.6}
+    - {text: 和泉屋吉兵衛, x: 116.5, y: 168.8, size: 8.8, pitch: 10.5}
+    - {text: 内野屋弥平治, x: 106.1, y: 167.0, size: 8.8, pitch: 10.6}
+    - {text: 播摩屋勝五郎, x: 96.4, y: 168.4, size: 8.8, pitch: 10.6}
+    - {text: 和泉屋善兵衛, x: 84.1, y: 168.0, size: 8.8, pitch: 10.3}
+    - {text: 丁子屋平兵衛, x: 75.2, y: 168.0, size: 8.8, pitch: 10.4}
+    - {text: 出雲寺萬治郎, x: 65.2, y: 167.0, size: 8.8, pitch: 10.6}
+    - {text: 和泉屋金右衛門, x: 53.1, y: 166.6, size: 8.8, pitch: 8.9}
+    - {text: 須原屋伊八, x: 44.2, y: 167.7, size: 8.8, pitch: 12.0}
+    - {text: 岡村屋庄助, x: 31.1, y: 167.6, size: 8.8, pitch: 12.5}
+    - {text: 英文藏, x: 23.0, y: 165.6, size: 8.8, pitch: 21.5}
+    - {text: 紙屋徳八, x: 10.7, y: 166.8, size: 8.8, pitch: 15.3}

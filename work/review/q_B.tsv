@@ -1,0 +1,51 @@
+key	note	verdict	proposed	comment
+q022L	c2 齊狼 ruby セイロン: grey round spot upper right of セ	現状維持		セから離れた中抜けの淡い丸点（紙の斑点）。半濁点ではない
+q022L	c3 中ハ安日河 / c5 臥兒帝: small solid dot beside the column	現状維持		茶色の丸い汚れ。圏点ではない
+q022L	c6 別 ruby ワカウ (3rd kana may be ツ)	現状維持		3字目は左の短画＋右の鉤画で，この筆者のウ（q023L 像《ゾウ》・涼《レウ》と同形）。ツの2点はない。文意はワカツテだが字形どおりウ（ただし親字は人｜別：ruby_B）
+q022L	c7 聰 ruby ソウ (ソ/ツ?)	現状維持		短い点1つ＋長画でソ
+q022L	c7 慧: written like 王王 over 己, ruby ケイ	現状維持		慧の手書き略形。振り仮名ケイとも合う
+q022L	c8 又能讀書: 能 written with left ム+月 compressed and right like 去	現状維持		能の手書き形（q024L・q025L も同形）
+q023L	c1 割注 桂《ケイ》島《トウ》: ruby cramped	現状維持		ケは桂の右上に明瞭，イは桂の右画に接するが読める。トウも島の右に明瞭
+q023L	c3 服従 ruby フリジウ: 2nd kana written as リ	現状維持		2字目は2画のリで明瞭（クではない）。原本どおり
+q023L	c8 涼 ruby レウ (1st kana レ/ン?, 2nd ウ?)	現状維持		1字目は縦画＋右上への長い払いでレ，2字目はこの筆者のウ（像《ゾウ》と同形）
+q024L	c1 割注 舊莫臥兒 ruby モンゴル: 3rd kana プ/ブ (ゴ?)	未決	舊｜莫臥兒《モンペル》	3字目はゴではなくヘ形（左下→右上→右下）で，右上に丸い点が1つ（塗りつぶれ）。ペかベか判断できない。モンベル/モンペルのいずれか。親字は莫臥兒だけ（ruby_B）
+q024L	c4 別 ruby ハカレ (1st kana ハ, perhaps ワ)	現状維持		左の縦画＋右の斜画のハで，ワの横画はない
+q024L	c7 争: top written like ク with a dot (爭?)	修正	戰爭《センゾウ》	ク形の中に点があり（爫の略），k008L 4列 爭戰 と同一字形。k008L では爭と入力しているので爭に統一するのがよい（推定）。親字は今世｜戰爭（ruby_B）
+q024L	c7 戰争 ruby セン + ゾウ (1st kana ソ/ツ with dakuten)	現状維持		濁点あり。左の点1つ＋長画でソと読む（k008L 爭戰《ソウセン》と同じソ）
+q024L	c8 廢 ruby ハイ (イ faint)	現状維持		イは全解像度で明瞭。ハは上端の小さな2画（濁点ではない）
+q024L	c8 鎗 ruby ソウ (ソ/ツ?)	現状維持		点1つ＋長画でソ
+q024L	c8 又能: 能 written as in q022	現状維持		q022L と同形の能
+q025L	c1/c2 獨逸都赫爾《ドイツヘル》 / 勿亜《シア》	現状維持		ヘは小さく薄いが赫の右にある。勿にシ，亜にア。全字に振り仮名があるので記法上も問題なし
+q025L	c5 威 ruby イ only (faint)	現状維持		イ1字のみ明瞭（ただし親字は兵｜威：ruby_B）
+q025L	c6 岳 ruby ガク (ク like リ?)	現状維持		クの形（左短画＋鉤）。親字は山｜岳（ruby_B）
+q025L	c4 禮: a small dot at its lower right	現状維持		汚れ。圏点として入れない
+q025L	c6 能: written as in q022	現状維持		q022L と同形の能
+q026L	c7 度ミリ五十五度: kana after 度 written as three separate strokes (ミ)	現状維持		3本の独立した短画でミ（c5 ヨリ のヨとは別形）。原本どおり。校記（度ミリ=度ヨリ）は残す
+q027L	c4 割注 思可齊亜 ruby シエシア; 意而蘭太 ruby イルランド	現状維持		コントラスト強調で確認：シ・エ（上横画＋中央縦画＋下横画）・シ（薄い2点＋払い）・ア。イルランドのンも薄いがある
+q027L	c6 爹摸斯《デームス》: 1st glyph read 爹	現状維持		父の下に多で爹
+q027L	c10 宜 ruby ヨロ (extra short stroke under ロ)	現状維持		ヨロのロの下に短い余画があるが別の仮名ではない（宜シ＝ヨロシ）
+k003L	亜太臘《アトラ》: 3rd kana faint, read ラ	現状維持		薄いが2画のラ
+k003L	所屬 ruby シヨゾク (シ written like ミ)	現状維持		3つの短画でミに近いが，この筆者はシ/ミを同形に書く（k005L 臨ミ注記参照）。シと読む
+k003L	雖《イエドモ》: 2nd kana エ (or ヱ?)	現状維持		上横画＋中央縦画＋下横画のエ。ヱの左上の折れはない（q028R 歐のヱと別形）
+k003L	雖能: 能 written with 太-like right half	現状維持		能の手書き形
+k003L	col 7 head キ交: under the library seal	現状維持		朱印の上に墨のキ・交が読める
+k004L	公斯璫低諾波爾 ruby: 諾 ノツ (ツ small, unclear)	現状維持		ノの下に小さいツ（3画）
+k004L	畏 ruby ヲソ (2nd kana could be リ)	現状維持		左の短画＋右上から左下へ払う長画でソ（リの右画は縦に長い）
+k004L	獨立 ruby ドクリウ (as written)	現状維持		ド・ク・リ（小さい）・ウ明瞭。原本どおり
+k004L	暖和 ruby タンクワ (no dakuten seen)	現状維持		全解像度でもタに濁点なし
+k004L	歐邏巴 ruby ヱウロツハ: ロ written open like ワ; 巴 ruby ハ (no dakuten seen)	現状維持		3字目は下の画のない開いた形（字形はワに近い）が，ロの略筆と見る。ヱ明瞭，ハに濁点・半濁点なし。必要なら校記に「ロ，ワ形」
+k005L	col 1 北ハ、: small dot right-below ハ (読点 or stray mark?)	修正	北ハ赫爾勿萋亜《ヘルヘシア》	点はハの右下ではなく真横のずっと右，振り仮名の列（ヘの上）にある小さな墨点。圏点・読点の位置ではないので汚れと見て、を削る（推定）。消し難ければ未決扱いでも可
+k005L	赫爾勿萋亜: 4th char 艹+妻 (萋)	現状維持		艹＋妻明瞭
+k005L	絶ズ: ス with dakuten as written; 時斗 ruby ドケイ (dakuten on ト as written)	現状維持		どちらも濁点明瞭。原本どおり
+k005L	賢智 ruby ケンヂ: dakuten written left of チ	現状維持		チの左上に濁点2点。ヂ
+k005L	臨ミ: last stroke runs flat to the right	現状維持		3画のミ（最終画が平たいのはこの筆者の癖）。ニノゾミで文意も合う
+k006L	割注 right half 窩々斯甸禮畿: last char 畿, ruby キ; 窩窩斯甸 ruby ヲヽステン (ヽ in the ruby line)	現状維持		幺幺＋戈＋田で畿，キは字に重なるが読める。ヲ・ヽは振り仮名の列，々は本行。原本どおり
+k006L	col 6 勿飫: 2nd char 飠 + 夭-like right (飫?); ruby ウヱイーネン	修正	勿飫《ウエイネン》	字は飠＋夭で飫でよい。振り仮名は2字目エ（ヱの折れなし），3字目はノ＋縦画で1字のイ，長音符なし（ruby_B #61，推定）
+k006L	實 ruby ジツ: ジ written as ﾂﾞ + レ-like stroke	現状維持		点＋レ形のシに濁点でジ。col 11 術 ジツ と同じ書き方
+k006L	col 11 即チ: small dot right of チ (stain?)	現状維持		茶色の丸い汚れ（墨ではない）。圏点ではない
+k007L	col 1 ロドミリー。: the circle after ー is open (ɔ-shaped)	現状維持		筆の切れで開いた圏点。。のままでよい
+k007L	col 2 starts with a circle above セ; written after 及ビ at end of col 1	現状維持		原本ではセの上（列の頭より上）にある始まりの。。道具の制約による処置として現状でよい（校記に残す）
+k007L	翁加里亜 ruby ヲンカリア: no dakuten seen on カ	現状維持		全解像度でカに濁点なし（k004L・k008L はガ）
+k007L	col 3 クルマーナ: last kana ナ written like 十	現状維持		十形のナ（この筆者のナ）
+k007L	col 5 窩窩斯甸禮畿: 畿 here written with ⺮-like top (幺幺)	現状維持		幺幺を⺮のように書いた畿。字は畿でよい
+k008L	干戈 ruby クワンクワ (as written; 干 has ク・ワ・ン)	現状維持		干にクワン，戈にクワが明瞭。原本どおり

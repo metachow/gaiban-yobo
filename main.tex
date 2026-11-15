@@ -1,0 +1,27 @@
+% One volume, single pages (one half-leaf per page), for print.
+% Build with tools/build.py, which sets \edvol (qian | kun) and \edlayout (single | spread):
+%   xelatex -jobname=gaiban-yobo_qian_single "\def\edvol{qian}\def\edlayout{single}\input{main}"
+\documentclass{article}
+\input{preamble}
+\ifdefined\edvol\else\def\edvol{qian}\fi
+\ifdefined\edlayout\else\def\edlayout{single}\fi
+\def\tmpq{qian}\ifx\edvol\tmpq\def\edvolname{乾}\else\def\edvolname{坤}\fi
+\hypersetup{pdftitle={外蕃容貌圖画 \edvolname}}
+\begin{document}
+\edcover
+\def\tmps{spread}%
+% \ededition{tri}: the trilingual edition (each country's facsimile opening + a translation opening)
+% with a title page (and its blank back in the print layout) after the cover
+\newif\iftrtitlekun\ifx\edvol\tmpq\else\trtitlekuntrue\fi
+\ifdefined\ededition\def\edlist{list_\ededition_}%
+  \setpaper{182mm}\null\input{front/title_tri}\newpage
+  \ifx\edlayout\tmps\edspread{tr_intro_zh}{tr_intro_en}\setpaper{182mm}%
+  \else\null\newpage\edpage{tr_intro_zh}\edpage{tr_intro_en}\fi
+\else\def\edlist{list_}\fi
+\ifx\edlayout\tmps\input{pages/\edlist spread_\edvol}\setpaper{182mm}\else\input{pages/\edlist\edvol}\fi
+\input{pages/appendix_\edvol}
+% print: the back cover must fall on a verso (even page) -> a blank page before it when needed
+\clearpage
+\ifx\edlayout\tmps\else\ifodd\value{page}\null\thispagestyle{empty}\newpage\fi\fi
+\edback
+\end{document}

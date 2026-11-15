@@ -1,0 +1,20 @@
+% 書衣（裏）: 同じ紙，四つ目綴じは左（表の裏返し）。下寄りに小さな刊記風の枠で本書の情報。
+\begin{tikzpicture}[remember picture,overlay,shift={(current page.south west)},xshift=\edxshift,x=1mm,y=1mm]
+  \node[anchor=south west,inner sep=0pt] at (0,0) {\includegraphics[width=182mm,height=251mm]{figures/cover_paper.jpg}};
+  \sewing{11}{-1}
+  \node[anchor=south,inner sep=0pt,text width=96mm,align=center,slipink] at (96,22) {%
+    \apxrm\fontsize{8.4pt}{14pt}\selectfont
+    \XeTeXlinebreaklocale "ja"\XeTeXlinebreakskip=0pt plus 1pt
+    {\fontsize{12pt}{18pt}\selectfont 外蕃容貌圖画　\edvolname\par}\smallskip
+    田川春道撰　倉田東岳画　安政二年（一八五五）刊\par
+    底本　筑波大学附属図書館所蔵本（ヤ600-4）\par\smallskip
+    {\fontsize{7.4pt}{12pt}\selectfont
+    図版は筑波大学附属図書館デジタルコレクションの画像を改変して使用した。
+    同館の利用条件により，調査・研究・教育・学習の目的に限る。\par
+    翻字・組版　二〇二六年（Claude の支援による。未校閲）\par
+    \ifdefined\ededition 中国語訳・英訳　二〇二六年（Claude による。専門家の校閲を経ていない）\par
+    {\tren\fontsize{7.6pt}{11pt}\selectfont Chinese and English translations by Claude (Anthropic), not reviewed by a specialist.\par}\fi}};
+  \ifdefined\ededition\def\edboxtop{61}\else\def\edboxtop{52}\fi
+  \draw[slipink,line width=0.35mm] (46,18) rectangle (146,\edboxtop);
+  \draw[slipink,line width=0.15mm] (47.2,19.2) rectangle (144.8,\edboxtop-1.2);
+\end{tikzpicture}

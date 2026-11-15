@@ -1,0 +1,13 @@
+# 坤 scan 019 L: 巴太温. 6 columns.
+# c5 亜細亜 ruby アヂア: read ヂ by the user 2026-11-15 (earlier taken as ダ)
+# c4 邊近: 2nd char read 近 by the user 2026-11-15 (as KuroNet; earlier taken as 迫)
+# 確認済 2026-11-14: 割注 尾 ruby ガ (small, could be ヤ); 墨尾蘭峡 ruby second kana カ (no dakuten seen)
+# 確認済 2026-11-14: 聚 ruby シウ (first kana faint)
+# 異体: 强 (= 強)
+# 校: col 6 ends 五十五度ニ至 with no ル (page ends there)
+巴太温《パタゴン》〔一名｜墨《メ》|尾《ガ》蘭《ラン》。〕此國南ハ墨尾蘭峡《メカランカウ》ヨリ北ハ剌伯辣多《ラプラダ》国界ニ
+至ル此地伊斯把泥亜《イスバニア》ノ所領ナリ人物賤シク各々｜獸皮《ジウヒ》ヲ
+衣服トナシ常ニ强《ゴウ》弓ヲ引テ山猟ヲ業トス又土人｜聚居《シウキヨ》シ
+テ家ヲナス者ナク五穀至テ乏シク氣候｜嚴《ゲン》寒ナリ此邊近
+キ山ニハ四時積雪アリ一說有リ亜細亜《アヂア》人此｜邦《クニ》ノ人ヲ号
+シテ長人ト云南極ヲ見ル叓三十六度ヨリ五十五度ニ至

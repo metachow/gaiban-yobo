@@ -1,0 +1,29 @@
+key	note	verdict	proposed	comment
+q007L	省《シヤウ》: ruby shape unclear (セ?ウ); 帝国 ruby written テイコク	修正	時十五｜省《セヤウ》	1字目セ明瞭，2字目ヤ（cf. 堯ギヤウ），3字目ウ。帝国テイコクは明瞭で現状どおり
+q008L	満《マン》州: only マン visible	現状維持		マンは満の横だけ，州に振り仮名なし
+q008L	霜雪 ruby read ソウセツ	現状維持		ソ・ウ・セ・ツ（q014 霜雪ソウセツと同じ）
+q008L	冠 ruby クワン?	現状維持		ク・ワ・ン明瞭
+q009L	壮 ruby ソウ	現状維持		ソ・ウ明瞭，濁点なし
+q009L	亜細亜 ruby アヂア (dakuten unclear)	修正	亜細亜《アチア》	全解像度でチに濁点なし
+q010L	繼 ruby ツヾ	修正	繼《ツヽ》	2字目は一画のヽで濁点なし（推定）
+q010L	釜山浦 ruby フサンポ (handakuten unclear)	修正	釜山浦《フサンホ》	全解像度で半濁点なし
+q010L	鴨 ruby ヲウ	修正	鴨《ヲヽ》	2字目はヽ形の一画のみ（ウの形でない）。q007 往古《ワヽゴ》と同じ書き方。ヽをウの略と見るなら現状維持もありうる
+q012L	c4 唐東 (as written)	現状維持		唐・東とも字形明瞭，書かれたとおり
+q012L	富饒 ruby フニヨウ	修正	富饒《フニユウ》	2字目はユ形（ヨの中画なし）
+q015L	非利皮那 ruby ヒリピナ (handakuten?)	修正	一名｜非利皮那《ヒリヒナ》	全解像度で半濁点の丸なし→ヒ。一名は親字から外す
+q015L	濕毒 ruby read ヒツドク (シツドク?)	現状維持		1字目は字形ヒ明瞭（q016 性質セイヒツも同じ書き癖）。ド濁点あり
+q015L	毀《カマビス》 glyph/reading unsure	修正	夥《カマビス》	親字は左に果・右に多＝夥（毀ではない）。振り仮名カマビスは明瞭（ビ濁点あり）。文意「夥シク産ス」
+q016L	拔答非亜 ruby (バタビヤ / バタアビヤ?)	修正	拔答非亜《ターアビヤ》	タ（濁点なし）・縦棒（長音）・ア・ビ・ヤ。バは見えない。字形どおりにとった（推定）
+q016L	咬𠺕吧 ruby カラウハ	現状維持		3字目はウ寄り（ツとも見えるが点が1つ），ハに濁点・半濁点なし
+q018L	c2 其主府: 2nd char has a tick on top (主), though 王府 is meant; c4 中人己下: written 己	現状維持		主（上に点）・己とも字形明瞭，書かれたとおり
+q019L	c1 割注 又｜百兒《ハル》: ハ may be パ	現状維持		全解像度で半濁点の丸なし
+q019L	c3 此国ニ部: the char after 国 looks like ニ (strokes partly broken, with set-off dots around); 国 with 王 inside	現状維持		横画2本（下が長い）でニ（二）。周りの点は裏写り
+q019L	c3 。イ。スハン。: circles as written, ン written like レ	現状維持		圏点・レ形のンとも書かれたとおり
+q019L	c6 饒 ruby ニユウ	現状維持		フ・ニ・ユ・ウ明瞭
+q019L	c5 燥 ruby ゾウ (dakuten?)	現状維持		ソの右下寄りに小さい濁点2画が見える（薄い）
+q020L	c1 界 ruby サカイ (カ may be ガ)	現状維持		カに濁点見えず
+q020L	c2 歐羅巴 ruby read エウラツバ (1st kana may be ヱ)	修正	歐羅巴《ヱウラツバ》	1字目は横画の下にフ形の折れのあるヱ形
+q020L	c3 壮 ruby ソウ (dakuten?)	現状維持		全解像度でソの右上に濁点なし
+q020L	c4 併 ruby ヘイ (イ partly touches the glyph)	現状維持		ヘイ明瞭
+q021L	c1 呂宋 ruby: ル ス only, with a dot below ス (speck? not a clear ン or dakuten); c1 浡耳匿何 ruby ホルネヲ (no dakuten seen on ホ)	現状維持		スの左下の小点2つは濁点の位置でなく汚れと見る。ホに濁点なし
+q021L	c5 和蘭 ruby: 1st kana faint (ヲ?); c6 割注 right half ハルカ。: カ written like 力	現状維持		1字目は薄いがヲ形。カは力形のカ

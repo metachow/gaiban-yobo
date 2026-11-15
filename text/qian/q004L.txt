@@ -1,0 +1,19 @@
+# 乾 scan 004 L: 序 1. 11 columns. Written 行草; hiragana normalised from hentaigana.
+# Seals on this page (not set): 「直政之印」(c2-3), library 「明治四十一年十月五日編入」(c2 foot), seal at c4 top.
+# Read at full resolution, checked against the CODH くずし字データセット (work/glyph/cmp_*) and
+# KuroNet OCR (2026-11-13). Where the two disagree and the shape is unclear, KuroNet's reading is taken
+# when it gives sense: 也 (written like 之), 百刻, 三道あり, 也此間, 名つく, をして.
+# ? c2 大極 (太極?); 錯行 / c3 旋轉 shapes unclear
+# ? c10 迄: written like 互
+# 校: c11 天笠 for 天竺 (also in the body text and in the label of the 天竺 plate)
+外蕃容貌圖画序
+夫天之主宰する所是を大極と云不言して四時錯行し萬物
+生育す昼夜百刻十二時に周天三百六十度を旋轉す天に三道あ
+り所謂赤道線南北黄道線是也何れの地と雖も明六時より
+昏六時迄を地平と名つく此間百八十度なり假令ば團丸の串を
+指たる如し赤道線は天の中心にして太陽此所に至れバ春秋二
+分の彼岸也又南北黄道に至れバ冬至夏至也此間相距叓四十七度
+なり又天に南北の二極星有て航海人をして便利を得せしむ是を
+樞星と云北極出地叓九十度の地ハ夜國氷海にして人栖む叓
+不能　我朝支那等ハ二十五六度より四十度迄の地にして是を正
+帯と云西洋亜弗利加南天笠爪哇南亜墨利加杯ハ赤道直下に

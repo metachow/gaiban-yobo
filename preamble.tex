@@ -1,0 +1,97 @@
+% Shared by main.tex, main_spread.tex and the page checks. Compile from the project root.
+\usepackage[paperwidth=182mm,paperheight=251mm,margin=0mm]{geometry}
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{needspace}
+\pagestyle{empty}
+% paper: the plates are cleaned to this tone (tools/make_plates.py TONE)
+\definecolor{paper}{RGB}{246,240,226}
+\pagecolor{paper}
+
+% body: the 版下 is a written 楷書 with katakana -> Klee One (OFL), vertical glyph forms
+\newfontfamily\edbody{KleeOne-SemiBold.ttf}[Path=fonts/,RawFeature=+vert]
+\newfontfamily\edruby{KleeOne-SemiBold.ttf}[Path=fonts/,RawFeature=+vert]
+% preface (written 行草): 衡山毛筆フォント行書 (free, commercial use allowed)
+\newfontfamily\edgyo{KouzanGyousho.ttf}[Path=fonts/,RawFeature=+vert]
+% characters Klee One lacks: 全字庫正楷體
+\newfontfamily\edfallback{TW-Kai.ttf}[Path=fonts/]
+\newfontfamily\edfallbackB{TW-Kai-ExtB.ttf}[Path=fonts/]
+
+\usepackage[hidelinks,bookmarksopen]{hyperref}
+
+% Covers (front/cover.tex, front/back.tex)
+\definecolor{slipink}{RGB}{48,40,30}
+\definecolor{threadcol}{RGB}{236,230,214}
+% \sewing{x}{dir}: 四つ目綴じ, holes at x mm, loops to the spine edge in direction dir
+% (+1 right, -1 left); hole heights measured on the cover scans (17.5/88.5/162/233 mm from the top)
+\newcommand\sewing[2]{%
+  \def\edgex{\ifnum#2>0 182\else 0\fi}%
+  \begin{scope}[threadcol,line width=0.75mm,line cap=round]
+    \draw (#1,251) -- (#1,0);
+    \foreach \y in {233.5,162.5,89,18}{
+      \draw (#1,\y) -- (\edgex,\y);
+      \fill[black!65] (#1,\y) circle (0.6);}
+  \end{scope}}
+\newcommand\edcover{\setpaper{182mm}\null\input{front/cover}\newpage}
+\newcommand\edback{\setpaper{182mm}\null\input{front/back}\newpage}
+
+% Back matter (凡例, 異体字一覧, 校記, 序 釈文): horizontal, modern setting with
+% XeTeX's own CJK line breaking (no xeCJK: it would interfere with the page fonts)
+\newfontfamily\apxrm{BIZ-UDMinchoM.ttc}[Path=fonts/]
+\newfontfamily\apxsung{TW-Sung.ttf}[Path=fonts/]
+\newfontfamily\apxsungB{TW-Sung-ExtB.ttf}[Path=fonts/]
+\newfontfamily\apxgyo{KouzanGyousho.ttf}[Path=fonts/]
+\newcommand\apxbig{\fontsize{14pt}{16pt}\selectfont}
+\newenvironment{appendixpages}{%
+  \newgeometry{top=26mm,bottom=26mm,left=24mm,right=24mm}%
+  \apxrm\fontsize{10pt}{18pt}\selectfont
+  \XeTeXlinebreaklocale "ja"\XeTeXlinebreakskip=0pt plus 1.5pt\emergencystretch=2em
+  \setlength\parindent{1em}\setlength\parskip{3pt}\raggedbottom}{\restoregeometry}
+\newcommand\apxsection[2]{\par\Needspace{10\baselineskip}\bigskip\hypertarget{#1}{}\pdfbookmark[0]{#2}{bm-#1}%
+  {\centering\fontsize{15pt}{22pt}\selectfont #2\par}\medskip}
+\newenvironment{vartable}{\par\medskip\centering
+  \begin{tabular}{*{3}{c@{\enspace}c@{\enspace}r@{\hspace{3em}}}}}%
+  {\end{tabular}\par\medskip}
+% 校記: \jjhead{target}{page}{country}, then \jjitem{its name}{place in the text}{number}{text}
+% per note (the place and the number at the column foot are written by tools/gen_pages.py)
+\definecolor{linkcol}{RGB}{150,30,20}
+\newcommand\jjhead[3]{\par\medskip\noindent\hyperlink{#1}{\textcolor{linkcol}{#2}}\quad #3\par}
+\newcommand\jjitem[4]{\noindent\hangindent=2em\hangafter=1\hypertarget{#1}{}%
+  \makebox[2em][l]{\hspace*{0.4em}\hyperlink{#2}{\textcolor{linkcol}{#3}}}#4\par}
+
+% Translation pages of the trilingual edition (tools/gen_trans.py): a fixed-size block per page,
+% Chinese in Noto Serif SC, English in EB Garamond (TeX Live), notes at the foot of the block
+\newfontfamily\trzh{NotoSerifSC-Regular.ttf}[Path=fonts/,BoldFont=NotoSerifSC-SemiBold.ttf]
+\newfontfamily\tren{EB Garamond}[Numbers=OldStyle]
+\newfontfamily\trlat{EB Garamond}[Numbers=Lining]
+\let\trcjk\trzh
+\newif\iftrzh
+\newenvironment{trpage}[3]{% {zh|en}{width}{height}
+  \begin{minipage}[t][#3][t]{#2}\def\tmplang{#1}\def\tmpzh{zh}%
+  \ifx\tmplang\tmpzh\trzhtrue\trzh\fontsize{13pt}{24.5pt}\selectfont
+    \XeTeXlinebreaklocale "zh"\XeTeXlinebreakskip=0pt plus 1pt minus 0.1pt\parindent=2em
+  \else\trzhfalse\tren\fontsize{13.5pt}{18.5pt}\selectfont
+    \XeTeXlinebreaklocale ""\XeTeXlinebreakskip=0pt\parindent=1.5em\fi
+  \parskip=0pt\emergencystretch=1.5em}{\end{minipage}}
+% \trhead{link to the original page}{continent}{country}
+\newcommand\trhead[3]{\noindent{\fontsize{9.5pt}{12pt}\selectfont\color{black!55}#2}\par\vspace{1.2mm}%
+  \noindent\hyperlink{#1}{{\iftrzh\bfseries\fi\fontsize{18pt}{24pt}\selectfont #3}}\par\vspace{2.5mm}%
+  \noindent{\color{black!45}\rule{\linewidth}{0.4pt}}\par\vspace{6mm}}
+\newcommand\trtight{\iftrzh\fontsize{12pt}{22pt}\else\fontsize{12pt}{16.2pt}\fi\selectfont}
+\newcommand\trmark[1]{\raisebox{0.65ex}{\fontsize{7pt}{7pt}\selectfont\trlat #1}}
+\newcommand\trsmall[1]{{\iftrzh\fontsize{10.5pt}{24.5pt}\else\fontsize{11pt}{18.5pt}\fi\selectfont #1}}
+\newcommand\trnotes{\par\vfill\noindent{\color{black!45}\rule{30mm}{0.4pt}}\par\vspace{1.5mm}%
+  \iftrzh\fontsize{9pt}{14pt}\else\fontsize{9.5pt}{12.5pt}\fi\selectfont\parindent=0pt}
+\newcommand\trnote[2]{\par\hangindent=1.3em\hangafter=1\noindent\makebox[1.3em][l]{\trlat #1}#2\par\vspace{0.6mm}}
+
+\newdimen\edxshift \edxshift=0pt
+% the page's destination p-<key> is set inside the page itself (works in both layouts)
+\newcommand\edpage[1]{\null\input{pages/#1}\newpage}
+% openings: one PDF page = right page (ura) + left page (next omote), as in the scans
+\newcommand\setpaper[1]{\paperwidth=#1\relax\pdfpagewidth=#1\relax}
+\newcommand\edspread[2]{%
+  \setpaper{364mm}\null
+  \if\relax\detokenize{#1}\relax\else{\edxshift=182mm\input{pages/#1}}\fi
+  \if\relax\detokenize{#2}\relax\else{\edxshift=0pt\input{pages/#2}}\fi
+  \newpage}

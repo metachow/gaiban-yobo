@@ -1,0 +1,1399 @@
+# Page geometry (mm), measured on the Tsukuba scans (12.41 px/mm; tools/measure_page.py).
+# Page = catalogue size 182 x 251. Scan x positions are aligned on the fore-edge (the
+# fold): right pages +10.5 mm (scan page 171.5 wide, the rest hides in the gutter).
+layout:
+  paper: [182, 251]
+  top: 20.0            # first character, from the top edge
+  height: 214.0        # 本文字高 21.5 cm (catalogue)
+  col_pitch: 14.3
+  spine_margin: 21.0   # omote (left page): column 1 centre from the spine edge
+  fore_margin: 32.3    # ura (right page): column 1 centre from the fore-edge
+  unit: 9.6            # natural advance of a kanji (katakana 0.8 of it)
+  glyph: 8.9            # body font size
+  ruby: 3.5
+  note_scale: 0.55     # 割注 characters relative to the body
+  justify: 0.85        # columns at least this full are justified to the full height
+
+# Page styles (override `layout` for pages with `style:`)
+styles:
+  preface:             # 序: written 行草 -> 衡山毛筆フォント行書
+    font: gyo
+    top: 9.0
+    height: 226.0
+    col_pitch: 14.5
+    unit: 7.8
+    glyph: 8.2
+  maptext:             # note beside the world map
+    top: 17.0
+    height: 214.0
+    col_pitch: 8.8
+    unit: 6.2
+    glyph: 5.8
+  naidai:              # 内題
+    top: 23.0
+    unit: 12.0
+    glyph: 10.0
+
+# Pages in reading order. side b = ura (right page of an opening), a = omote (left page).
+pages:
+  q004R:
+    kind: blank
+    side: b
+    note: 前見返し
+  q004L:
+    kind: text
+    side: a
+    note: 序
+    text: qian/q004L.txt
+    style: preface
+    first_col: 157.9
+  q005R:
+    kind: text
+    side: b
+    note: 序
+    text: qian/q005R.txt
+    style: preface
+    first_col: 167.5
+  q005L:
+    kind: text
+    side: a
+    note: 序
+    text: qian/q005L.txt
+    style: preface
+    first_col: 166.3
+  q006R:
+    kind: map
+    side: b
+    plate:
+      file: figures/map_R.png
+      x: 12.6
+      y: 2.9
+      w: 157.8
+  q006L:
+    kind: map
+    side: a
+    plate:
+      file: figures/map_L.png
+      x: 11.6
+      y: 2.9
+      w: 161.2
+    text: qian/q006L.txt
+    style: maptext
+    first_col: 22.3
+  q007R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/qian_007.png
+      x: 20.9
+      y: 38.8
+      w: 150.5
+    label:
+    - text: 亜細亜
+      x: 165.7
+      y: 17.0
+      size: 5.19
+      pitch: 5.47
+    - text: 大明《タイミン》
+      x: 154.6
+      y: 23.8
+      size: 8.79
+      pitch: 9.55
+      ruby: 3.3
+  q007L:
+    kind: text
+    side: a
+    text: qian/q007L.txt
+  q008R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/qian_008.png
+      x: 17.4
+      y: 29.6
+      w: 154.1
+    label:
+    - text: 亜細亜
+      x: 166.4
+      y: 25.1
+      size: 4.81
+      pitch: 5.07
+    - text: 大清《タイシン》
+      x: 155.4
+      y: 31.2
+      size: 9.0
+      pitch: 10.35
+      ruby: 3.3
+  q008L:
+    kind: text
+    side: a
+    text: qian/q008L.txt
+  q009R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/qian_009.png
+      x: 22.4
+      y: 26.7
+      w: 149.1
+    label:
+    - text: 亜細亜
+      x: 162.3
+      y: 23.9
+      size: 5.8
+      pitch: 7.97
+    - text: 韃靼《ダツタン》
+      x: 151.5
+      y: 29.1
+      size: 9.0
+      pitch: 11.35
+      ruby: 3.3
+  q009L:
+    kind: text
+    side: a
+    text: qian/q009L.txt
+  q010R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/qian_010.png
+      x: 34.0
+      y: 20.5
+      w: 135.9
+    label:
+    - text: 亜細亜
+      x: 166.3
+      y: 15.7
+      size: 5.8
+      pitch: 7.63
+    - text: 朝鮮《テウセン》
+      x: 155.5
+      y: 21.0
+      size: 9.0
+      pitch: 11.0
+      ruby: 3.3
+  q010L:
+    kind: text
+    side: a
+    text: qian/q010L.txt
+  q011R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/qian_011.png
+      x: 16.6
+      y: 25.5
+      w: 154.9
+    label:
+    - text: 亜細亜
+      x: 166.4
+      y: 6.8
+      size: 5.8
+      pitch: 9.63
+    - text: 琉球《リウキウ》
+      x: 151.1
+      y: 25.1
+      size: 9.0
+      pitch: 10.6
+      ruby: 3.3
+  q011L:
+    kind: text
+    side: a
+    text: qian/q011L.txt
+  q012R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/qian_012.png
+      x: 15.8
+      y: 39.6
+      w: 155.7
+    label:
+    - text: 亜細亜
+      x: 167.5
+      y: 18.9
+      size: 4.66
+      pitch: 4.9
+    - text: 東《トン》京《キン》
+      x: 158.9
+      y: 20.6
+      size: 7.2
+      pitch: 12.2
+      ruby: 2.6
+  q012L:
+    kind: text
+    side: a
+    text: qian/q012L.txt
+  q013R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/qian_013.png
+      x: 12.1
+      y: 47.5
+      w: 149.7
+    label:
+    - text: 亜細亜
+      x: 161.6
+      y: 23.7
+      size: 4.97
+      pitch: 5.23
+    - text: 兀良哈《ヲランカイ》
+      x: 150.5
+      y: 28.8
+      size: 6.75
+      pitch: 7.33
+      ruby: 3.3
+  q013L:
+    kind: text
+    side: a
+    text: qian/q013L.txt
+  q014R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/qian_014.png
+      x: 21.9
+      y: 36.4
+      w: 138.7
+    label:
+    - text: 亜細亜
+      x: 162.4
+      y: 23.2
+      size: 4.78
+      pitch: 5.03
+    - text: 臺灣《ダイワン》
+      x: 151.0
+      y: 28.8
+      size: 9.0
+      pitch: 10.65
+      ruby: 3.3
+  q014L:
+    kind: text
+    side: a
+    text: qian/q014L.txt
+  q015R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/qian_015.png
+      x: 11.2
+      y: 49.3
+      w: 160.3
+    label:
+    - text: 亜細亜
+      x: 166.4
+      y: 31.7
+      size: 4.78
+      pitch: 5.03
+    - text: 呂宋《ロソン》
+      x: 156.2
+      y: 37.4
+      size: 9.0
+      pitch: 10.6
+      ruby: 3.3
+  q015L:
+    kind: text
+    side: a
+    text: qian/q015L.txt
+  q016R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/qian_016.png
+      x: 17.1
+      y: 49.2
+      w: 149.4
+    label:
+    - text: 亜細亜
+      x: 164.0
+      y: 21.4
+      size: 5.22
+      pitch: 5.5
+    - text: 爪哇《ジヤワ》
+      x: 150.4
+      y: 26.8
+      size: 9.0
+      pitch: 10.1
+      ruby: 3.3
+  q016L:
+    kind: text
+    side: a
+    text: qian/q016L.txt
+  q017R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/qian_017.png
+      x: 11.9
+      y: 38.4
+      w: 146.2
+    label:
+    - text: 亜細亜
+      x: 161.7
+      y: 13.7
+      size: 4.4
+      pitch: 4.63
+    - text: 蘇門答剌《スモンダラ》
+      x: 148.6
+      y: 18.6
+      size: 6.49
+      pitch: 7.05
+      ruby: 3.3
+  q017L:
+    kind: text
+    side: a
+    text: qian/q017L.txt
+  q018R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/qian_018.png
+      x: 19.0
+      y: 33.6
+      w: 138.8
+    label:
+    - text: 亜細亜
+      x: 163.5
+      y: 22.2
+      size: 4.69
+      pitch: 4.93
+    - text: 暹羅《シヤムロ》
+      x: 151.9
+      y: 27.4
+      size: 9.0
+      pitch: 10.45
+      ruby: 3.3
+  q018L:
+    kind: text
+    side: a
+    text: qian/q018L.txt
+  q019R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/qian_019.png
+      x: 13.7
+      y: 20.1
+      w: 140.5
+    label:
+    - text: 亜細亜
+      x: 162.0
+      y: 15.4
+      size: 4.97
+      pitch: 5.23
+    - text: 百兒西亜《ペルシア》
+      x: 151.4
+      y: 20.6
+      size: 5.17
+      pitch: 5.62
+      ruby: 3.3
+  q019L:
+    kind: text
+    side: a
+    text: qian/q019L.txt
+  q020R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/qian_020.png
+      x: 29.0
+      y: 49.3
+      w: 124.3
+    label:
+    - text: 亜細亜
+      x: 160.9
+      y: 18.4
+      size: 4.78
+      pitch: 5.03
+    - text: 亜爾黙尼亜《アルメニア》
+      x: 148.7
+      y: 23.9
+      size: 5.3
+      pitch: 5.76
+      ruby: 3.3
+  q020L:
+    kind: text
+    side: a
+    text: qian/q020L.txt
+  q021R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/qian_021.png
+      x: 17.8
+      y: 24.5
+      w: 124.1
+    label:
+    - text: 亜細亜
+      x: 166.1
+      y: 16.8
+      size: 5.22
+      pitch: 5.5
+    - text: 食力百私《セレベス》
+      x: 152.6
+      y: 21.2
+      size: 5.87
+      pitch: 6.38
+      ruby: 3.3
+  q021L:
+    kind: text
+    side: a
+    text: qian/q021L.txt
+  q022R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/qian_022.png
+      x: 14.9
+      y: 41.7
+      w: 139.9
+    label:
+    - text: 亜細亜
+      x: 161.3
+      y: 25.3
+      size: 4.65
+      pitch: 4.9
+    - text: 天笠《テンヂク》
+      x: 149.9
+      y: 31.3
+      size: 8.19
+      pitch: 8.9
+      ruby: 3.3
+  q022L:
+    kind: text
+    side: a
+    text: qian/q022L.txt
+  q023R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/qian_023.png
+      x: 12.9
+      y: 37.9
+      w: 128.5
+    label:
+    - text: 亜細亜
+      x: 158.3
+      y: 19.9
+      size: 5.0
+      pitch: 5.27
+    - text: 齊狼《セイロン》
+      x: 145.0
+      y: 25.2
+      size: 8.74
+      pitch: 9.5
+      ruby: 3.3
+  q023L:
+    kind: text
+    side: a
+    text: qian/q023L.txt
+  q024R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/qian_024.png
+      x: 8.9
+      y: 30.3
+      w: 154.6
+    label:
+    - text: 亜細亜
+      x: 162.3
+      y: 18.0
+      size: 4.18
+      pitch: 4.4
+    - text: 際若私《セイクス》
+      x: 149.7
+      y: 21.8
+      size: 6.72
+      pitch: 7.3
+      ruby: 3.3
+  q024L:
+    kind: text
+    side: a
+    text: qian/q024L.txt
+  q025R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/qian_025.png
+      x: 22.1
+      y: 30.9
+      w: 137.8
+    label:
+    - text: 歐邏巴
+      x: 162.9
+      y: 18.0
+      size: 5.13
+      pitch: 5.4
+    - text: 佛蘭西《フランス》
+      x: 149.9
+      y: 23.6
+      size: 6.65
+      pitch: 7.23
+      ruby: 3.3
+  q025L:
+    kind: text
+    side: a
+    text: qian/q025L.txt
+  q026R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/qian_026.png
+      x: 8.8
+      y: 28.5
+      w: 159.1
+    label:
+    - text: 歐邏巴
+      x: 162.3
+      y: 14.5
+      size: 5.07
+      pitch: 5.33
+    - text: 和蘭《ヲランダ》
+      x: 149.2
+      y: 20.6
+      size: 9.0
+      pitch: 10.65
+      ruby: 3.3
+  q026L:
+    kind: text
+    side: a
+    text: qian/q026L.txt
+  q027R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/qian_027.png
+      x: 11.2
+      y: 30.8
+      w: 149.8
+    label:
+    - text: 歐邏巴
+      x: 159.1
+      y: 10.3
+      size: 5.16
+      pitch: 5.43
+    - text: 暎咭唎《イギリス》
+      x: 144.7
+      y: 15.9
+      size: 9.0
+      pitch: 11.93
+      ruby: 3.3
+  q027L:
+    kind: text
+    side: a
+    text: qian/q027L.txt
+  q028R:
+    kind: text
+    side: b
+    note: 跋
+    text: qian/q028R.txt
+  q028L:
+    kind: blank
+    side: a
+  q029R:
+    kind: blank
+    side: b
+  q029L:
+    kind: blank
+    side: a
+    note: 後見返し
+  k002R:
+    kind: blank
+    side: b
+    note: 前見返し
+  k002L:
+    kind: text
+    side: a
+    note: 内題
+    text: kun/k002L.txt
+    style: naidai
+    first_col: 155.0
+  k003R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/kun_003.png
+      x: 18.3
+      y: 10.8
+      w: 153.0
+    label:
+    - text: 歐邏巴
+      x: 166.4
+      y: 7.8
+      size: 5.8
+      pitch: 12.8
+    - text: 波爾杜尾爾《ホルトガル》
+      x: 155.5
+      y: 13.5
+      size: 7.29
+      pitch: 7.92
+      ruby: 3.3
+  k003L:
+    kind: text
+    side: a
+    text: kun/k003L.txt
+  k004R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/kun_004.png
+      x: 31.5
+      y: 18.7
+      w: 140.0
+    label:
+    - text: 歐邏巴
+      x: 166.3
+      y: 13.0
+      size: 4.85
+      pitch: 5.1
+    - text: 都兒格《トルコ》
+      x: 155.4
+      y: 18.0
+      size: 6.87
+      pitch: 7.47
+      ruby: 3.3
+  k004L:
+    kind: text
+    side: a
+    text: kun/k004L.txt
+  k005R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/kun_005.png
+      x: 15.0
+      y: 44.2
+      w: 156.4
+    label:
+    - text: 歐邏巴
+      x: 166.4
+      y: 17.9
+      size: 5.03
+      pitch: 5.3
+    - text: 意太里亜《イタリア》
+      x: 156.2
+      y: 24.3
+      size: 5.52
+      pitch: 6.0
+      ruby: 3.3
+  k005L:
+    kind: text
+    side: a
+    text: kun/k005L.txt
+  k006R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/kun_006.png
+      x: 15.3
+      y: 40.6
+      w: 156.2
+    label:
+    - text: 歐邏巴
+      x: 166.4
+      y: 14.5
+      size: 5.8
+      pitch: 7.6
+    - text: 獨逸都《ドイツ》
+      x: 154.0
+      y: 21.7
+      size: 6.96
+      pitch: 7.57
+      ruby: 3.3
+  k006L:
+    kind: text
+    side: a
+    text: kun/k006L.txt
+  k007R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/kun_007.png
+      x: 25.0
+      y: 40.5
+      w: 137.2
+    label:
+    - text: 歐邏巴
+      x: 163.3
+      y: 13.5
+      size: 5.29
+      pitch: 5.57
+    - text: 翁加里亜《ヲンガリア》
+      x: 151.2
+      y: 19.2
+      size: 5.73
+      pitch: 6.23
+      ruby: 3.3
+  k007L:
+    kind: text
+    side: a
+    text: kun/k007L.txt
+  k008R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/kun_008.png
+      x: 14.5
+      y: 39.3
+      w: 150.6
+    label:
+    - text: 歐邏巴
+      x: 160.5
+      y: 13.8
+      size: 4.81
+      pitch: 5.07
+    - text: 波羅尼亜《ホロニア》
+      x: 148.7
+      y: 19.7
+      size: 6.05
+      pitch: 6.58
+      ruby: 3.3
+  k008L:
+    kind: text
+    side: a
+    text: kun/k008L.txt
+  k009R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/kun_009.png
+      x: 26.0
+      y: 36.5
+      w: 128.1
+    label:
+    - text: 歐邏巴
+      x: 164.2
+      y: 12.6
+      size: 5.29
+      pitch: 5.57
+    - text: 以西把尼亜《イスパニア》
+      x: 151.7
+      y: 17.8
+      size: 4.97
+      pitch: 5.4
+      ruby: 3.3
+  k009L:
+    kind: text
+    side: a
+    text: kun/k009L.txt
+  k010R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/kun_010.png
+      x: 25.4
+      y: 48.3
+      w: 135.1
+    label:
+    - text: 歐邏巴
+      x: 164.4
+      y: 17.6
+      size: 5.03
+      pitch: 5.3
+    - text: 第那瑪爾加《デーネマルカ》
+      x: 152.8
+      y: 23.0
+      size: 6.11
+      pitch: 6.64
+      ruby: 3.3
+  k010L:
+    kind: text
+    side: a
+    text: kun/k010L.txt
+  k011R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/kun_011.png
+      x: 13.7
+      y: 25.6
+      w: 155.0
+    label:
+    - text: 歐邏巴
+      x: 165.0
+      y: 14.3
+      size: 4.75
+      pitch: 5.0
+    - text: 雪際亜《スヱシア》
+      x: 152.5
+      y: 19.8
+      size: 6.35
+      pitch: 6.9
+      ruby: 3.3
+  k011L:
+    kind: text
+    side: a
+    text: kun/k011L.txt
+  k012R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/kun_012.png
+      x: 19.3
+      y: 20.7
+      w: 138.8
+    label:
+    - text: 歐邏巴
+      x: 161.5
+      y: 17.1
+      size: 5.0
+      pitch: 5.27
+    - text: 魯西亜《ロシア》
+      x: 150.1
+      y: 22.6
+      size: 6.47
+      pitch: 7.03
+      ruby: 3.3
+  k012L:
+    kind: text
+    side: a
+    text: kun/k012L.txt
+  k013R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/kun_013.png
+      x: 12.9
+      y: 8.5
+      w: 156.1
+    label:
+    - text: 歐邏巴
+      x: 163.0
+      y: 15.7
+      size: 4.97
+      pitch: 5.23
+    - text: 依蘭上《イヽスランド》
+      x: 151.7
+      y: 21.8
+      size: 6.65
+      pitch: 7.23
+      ruby: 3.3
+  k013L:
+    kind: text
+    side: a
+    text: kun/k013L.txt
+  k014R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/kun_014.png
+      x: 14.3
+      y: 30.7
+      w: 147.2
+    label:
+    - text: 亜弗利加
+      x: 151.8
+      y: 17.8
+      size: 4.11
+      pitch: 4.33
+    - text: 阨入多《エヂフト》
+      x: 141.9
+      y: 22.8
+      size: 6.04
+      pitch: 6.57
+      ruby: 3.3
+  k014L:
+    kind: text
+    side: a
+    text: kun/k014L.txt
+  k015R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/kun_015.png
+      x: 12.7
+      y: 12.6
+      w: 151.2
+    label:
+    - text: 亜弗利加
+      x: 158.9
+      y: 14.5
+      size: 5.8
+      pitch: 7.1
+    - text: 泥又利西亜《ニギリシア》
+      x: 146.6
+      y: 20.3
+      size: 5.34
+      pitch: 5.8
+      ruby: 3.3
+  k015L:
+    kind: text
+    side: a
+    text: kun/k015L.txt
+  k016R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/kun_016.png
+      x: 14.5
+      y: 42.8
+      w: 147.1
+    label:
+    - text: 亜弗利加
+      x: 163.1
+      y: 16.1
+      size: 5.22
+      pitch: 5.5
+    - text: 爲匿亜《ゴイネア》
+      x: 152.3
+      y: 21.7
+      size: 6.56
+      pitch: 7.13
+      ruby: 3.3
+  k016L:
+    kind: text
+    side: a
+    text: kun/k016L.txt
+  k017R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/kun_017.png
+      x: 23.9
+      y: 36.2
+      w: 129.0
+    label:
+    - text: 亜弗利加
+      x: 164.0
+      y: 17.8
+      size: 4.16
+      pitch: 4.37
+    - text: 馬拿莫太巴《モノモタツパ》
+      x: 153.4
+      y: 22.2
+      size: 5.5
+      pitch: 5.98
+      ruby: 3.3
+  k017L:
+    kind: text
+    side: a
+    text: kun/k017L.txt
+  k018R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/kun_018.png
+      x: 24.1
+      y: 44.4
+      w: 124.4
+    label:
+    - text: 南亜墨利加
+      x: 158.7
+      y: 10.4
+      size: 4.39
+      pitch: 4.62
+    - text: 新尾辣那達《シンガラナダ》
+      x: 146.2
+      y: 16.5
+      size: 6.07
+      pitch: 6.6
+      ruby: 3.3
+  k018L:
+    kind: text
+    side: a
+    text: kun/k018L.txt
+  k019R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/kun_019.png
+      x: 11.5
+      y: 4.8
+      w: 159.2
+    label:
+    - text: 南亜墨利加
+      x: 160.9
+      y: 10.6
+      size: 4.24
+      pitch: 4.46
+    - text: 巴太温《パタゴン》
+      x: 149.3
+      y: 16.8
+      size: 6.75
+      pitch: 7.33
+      ruby: 3.3
+  k019L:
+    kind: text
+    side: a
+    text: kun/k019L.txt
+  k020R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/kun_020.png
+      x: 13.7
+      y: 8.0
+      w: 151.2
+    label:
+    - text: 南亜墨利加
+      x: 140.1
+      y: 8.7
+      size: 4.45
+      pitch: 4.68
+    - text: 亜瑪鑽《アマソネ》
+      x: 128.1
+      y: 15.1
+      size: 7.27
+      pitch: 7.9
+      ruby: 3.3
+  k020L:
+    kind: text
+    side: a
+    text: kun/k020L.txt
+  k021R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/kun_021.png
+      x: 23.0
+      y: 31.5
+      w: 121.8
+    label:
+    - text: 北亜墨利加
+      x: 159.4
+      y: 7.8
+      size: 4.2
+      pitch: 4.42
+    - text: 墨是可《メキシコ》
+      x: 148.0
+      y: 14.1
+      size: 6.69
+      pitch: 7.27
+      ruby: 3.3
+  k021L:
+    kind: text
+    side: a
+    text: kun/k021L.txt
+  k022R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/kun_022.png
+      x: 20.5
+      y: 27.9
+      w: 127.4
+    label:
+    - text: 北亜墨利加
+      x: 165.1
+      y: 13.3
+      size: 4.14
+      pitch: 4.36
+    - text: 合衆國《ガウシウコク》
+      x: 154.3
+      y: 19.2
+      size: 6.69
+      pitch: 7.27
+      ruby: 3.3
+  k022L:
+    kind: text
+    side: a
+    text: kun/k022L.txt
+  k023R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/kun_023.png
+      x: 21.5
+      y: 87.8
+      w: 144.8
+    label:
+    - text: 北亜墨利加
+      x: 162.6
+      y: 12.2
+      size: 4.28
+      pitch: 4.5
+    - text: 新貌利太泥亜《シンプリタニア》
+      x: 150.1
+      y: 17.7
+      size: 5.64
+      pitch: 6.13
+      ruby: 3.3
+  k023L:
+    kind: text
+    side: a
+    text: kun/k023L.txt
+  k024R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/kun_024.png
+      x: 13.2
+      y: 20.3
+      w: 148.8
+    label:
+    - text: 北亜墨利加
+      x: 158.8
+      y: 11.4
+      size: 4.35
+      pitch: 4.58
+    - text: 臥兒狼德《グルウルランド》
+      x: 146.1
+      y: 17.5
+      size: 6.92
+      pitch: 7.53
+      ruby: 3.3
+  k024L:
+    kind: text
+    side: a
+    text: kun/k024L.txt
+  k025R:
+    kind: figure
+    side: b
+    plate:
+      file: figures/kun_025.png
+      x: 12.6
+      y: 40.2
+      w: 146.4
+    label:
+    - text: 北亜墨利加
+      x: 162.7
+      y: 11.0
+      size: 4.39
+      pitch: 4.62
+    - text: 新思可齊亜《シンスコシキア》
+      x: 149.0
+      y: 17.4
+      size: 6.16
+      pitch: 6.7
+      ruby: 3.3
+  k025L:
+    kind: text
+    side: a
+    text: kun/k025L.txt
+  k026R:
+    kind: free
+    side: b
+    note: 刊記
+    label:
+    - text: 猶又次編ニ萬國舩の画圖悉穿鑿致并ニ舩の印本
+      x: 156.0
+      y: 50.7
+      size: 7.4
+      pitch: 8.8
+      font: gyo
+    - text: お添一覧ニ何國乃舩とお分りの様画き且又
+      x: 144.3
+      y: 50.8
+      size: 7.4
+      pitch: 9.2
+      font: gyo
+    - text: 日本ヨリ萬國へ乃里數悉相印追刻仕候
+      x: 133.5
+      y: 51.6
+      size: 7.4
+      pitch: 10.2
+      font: gyo
+    - text: 安政二乙卯年正月吉辰
+      x: 117.0
+      y: 20.8
+      size: 9.4
+      pitch: 10.4
+    - text: 田川春道撰
+      x: 100.7
+      y: 112.0
+      size: 16.0
+      pitch: 19.2
+    - text: 倉田東岳画
+      x: 79.1
+      y: 112.2
+      size: 16.0
+      pitch: 19.2
+    - text: 製本賣捌
+      x: 32.3
+      y: 40.5
+      size: 10.0
+      pitch: 12.1
+    - text: 金華堂　須原屋　佐助
+      x: 32.3
+      y: 108.0
+      size: 10.0
+      pitch: 11.6
+    - text: 日本橋通四丁目
+      x: 45.3
+      y: 124.3
+      size: 6.4
+      pitch: 7.9
+    images:
+    - file: figures/seal_kun026_b.png
+      x: 89.45
+      y: 211.55
+      w: 21.4
+    - file: figures/seal_kun026_a.png
+      x: 69.7
+      y: 212.0
+      w: 19.0
+  k026L:
+    kind: free
+    side: a
+    note: 刊記
+    label:
+    - text: 東都
+      x: 121.5
+      y: 22.3
+      size: 19.0
+      pitch: 22.5
+    - text: 書林
+      x: 58.2
+      y: 27.3
+      size: 18.0
+      pitch: 20.5
+    - text: 日本橋通一丁目
+      x: 158.3
+      y: 96.5
+      size: 6.4
+      pitch: 7.5
+    - text: 同　　　　二丁目
+      x: 148.3
+      y: 95.8
+      size: 6.4
+      pitch: 7.5
+    - text: 同
+      x: 136.0
+      y: 95.4
+      size: 6.4
+      pitch: 7.5
+    - text: 芝　　神明前
+      x: 126.7
+      y: 94.7
+      size: 6.4
+      pitch: 7.5
+    - text: 同
+      x: 116.5
+      y: 94.7
+      size: 6.4
+      pitch: 7.5
+    - text: 同
+      x: 106.1
+      y: 94.7
+      size: 6.4
+      pitch: 7.5
+    - text: 日本橋通十軒店
+      x: 96.4
+      y: 94.3
+      size: 6.4
+      pitch: 7.5
+    - text: 本町　　三丁目
+      x: 84.1
+      y: 93.6
+      size: 6.4
+      pitch: 7.5
+    - text: 大傳馬町二丁目
+      x: 75.2
+      y: 94.0
+      size: 6.4
+      pitch: 7.5
+    - text: 横山町　一丁目
+      x: 65.2
+      y: 95.1
+      size: 6.4
+      pitch: 7.5
+    - text: 同　　　三丁目
+      x: 53.1
+      y: 94.4
+      size: 6.4
+      pitch: 7.5
+    - text: 淺草茅町二丁目
+      x: 44.2
+      y: 94.3
+      size: 6.4
+      pitch: 7.5
+    - text: 下谷池之端仲町
+      x: 31.1
+      y: 93.8
+      size: 6.4
+      pitch: 7.5
+    - text: 同　御成街通
+      x: 23.0
+      y: 93.8
+      size: 6.4
+      pitch: 7.5
+    - text: 同
+      x: 10.7
+      y: 93.8
+      size: 6.4
+      pitch: 7.5
+    - text: 須原屋茂兵衛
+      x: 158.3
+      y: 170.7
+      size: 8.8
+      pitch: 10.3
+    - text: 山城屋佐兵衛
+      x: 148.3
+      y: 170.2
+      size: 8.8
+      pitch: 10.3
+    - text: 小林新兵衛
+      x: 136.0
+      y: 169.5
+      size: 8.8
+      pitch: 12.3
+    - text: 岡田屋嘉七
+      x: 126.7
+      y: 168.7
+      size: 8.8
+      pitch: 12.6
+    - text: 和泉屋吉兵衛
+      x: 116.5
+      y: 168.8
+      size: 8.8
+      pitch: 10.5
+    - text: 内野屋弥平治
+      x: 106.1
+      y: 167.0
+      size: 8.8
+      pitch: 10.6
+    - text: 播摩屋勝五郎
+      x: 96.4
+      y: 168.4
+      size: 8.8
+      pitch: 10.6
+    - text: 和泉屋善兵衛
+      x: 84.1
+      y: 168.0
+      size: 8.8
+      pitch: 10.3
+    - text: 丁子屋平兵衛
+      x: 75.2
+      y: 168.0
+      size: 8.8
+      pitch: 10.4
+    - text: 出雲寺萬治郎
+      x: 65.2
+      y: 167.0
+      size: 8.8
+      pitch: 10.6
+    - text: 和泉屋金右衛門
+      x: 53.1
+      y: 166.6
+      size: 8.8
+      pitch: 8.9
+    - text: 須原屋伊八
+      x: 44.2
+      y: 167.7
+      size: 8.8
+      pitch: 12.0
+    - text: 岡村屋庄助
+      x: 31.1
+      y: 167.6
+      size: 8.8
+      pitch: 12.5
+    - text: 英文藏
+      x: 23.0
+      y: 165.6
+      size: 8.8
+      pitch: 21.5
+    - text: 紙屋徳八
+      x: 10.7
+      y: 166.8
+      size: 8.8
+      pitch: 15.3
+    images: []
+  k027R:
+    kind: blank
+    side: b
+  k027L:
+    kind: blank
+    side: a
+    note: 後見返し

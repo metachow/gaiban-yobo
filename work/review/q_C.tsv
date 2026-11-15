@@ -1,0 +1,43 @@
+key	note	verdict	proposed	comment
+k015L	乂: two crossing strokes only (乂, not 又/文); 昆: 日 over 比	修正	泥乂利西亜《ニギリシア》	k015の字は左払いの起筆に小さな鉤があるだけで，又の上の横画（フ）はない。k016の泥乂利西亜と同形。注記は乂なのに本文が「又」になっているので乂に揃える（labels.yamlの kun_015 も「又」，図の標題は別に要確認）。昆は日の下に比で明瞭，現状維持
+k015L	亜昆心域 ruby ends ニ + vertical stroke, read ニー; 己 (己/已 ambiguous); 己 ruby ヲノレ	現状維持		ニの下は縦一画でニーと読める。己は左の縦画が上まで届かない己形。ヲノレ：ヲの下に独立した短いノがあり，レへ続く（ヲの末画ではない）
+k015L	エチヲピヤ, 歐邏巴 ruby エウラツパ: first kana エ (could be ヱ)	修正	〔ヱチヲピヤ。種|即黒人ナリ〕／歐邏巴《ヱウラツパ》	どちらも第1字は上画の右端が左下へ折れて輪になるヱ形（6倍で確認）。スヱシア（k011）のヱ，ヱウラワハ（k009）のヱと同形で，k010・k016の素直なエとは違う。推定
+k015L	図の標題も「乂」に上の一画が加わった形	未決		図版 kun_015 の標題（3倍で確認）は乂の交叉の上に左から短い横画が加わり，又（フ＋乀）と乂の中間の形。本文（k015 col1，k016 col1）は乂形。標題を乂とするか又とするか（labels.yaml は現状「又」）は字体表で一括判断されたい。本文は乂に揃えるのを推す
+k016L	黒地兀皮亜 ruby third kana オ (could be ヲ); 波 ruby ホ (no dakuten seen)	現状維持		第3字は十字＋左払いのオ形（ヲの「フ＋一」形ではない）。波のホに濁点なし（ホの左右の点のみ）
+k016L	弟那瑪爾加: first char is 丷 + 弔 shape = 弟	現状維持		丷＋弔形で弟。第/苐の竹冠・艹冠はない
+k017L	毀《カマビスシ》: char is 臼+土 / 殳 (= 毀); ruby カマビスシ as written	現状維持		字形は毀，振り仮名カマビスシ明瞭（ビの濁点あり）。乾 q008L の「毀《カマビス》シク」と同じ用字
+k018L	孛露 ruby ペーリキ: last kana two horizontals crossed by one vertical (キ; could be ヰ)	現状維持		縦画は1本だけで，井形の2本目の縦画はない→キ（4倍で確認）
+k018L	獨立 ruby ドクリウ as written; 爲 written with a reduced top, all entered 爲	現状維持		リの次はウ（ワ冠＋払い）でドクリウ。爲はそのまま
+k019L	割注 尾 ruby ガ (small, could be ヤ); 墨尾蘭峡 ruby second kana カ (no dakuten seen)	現状維持		尾の振り仮名は縦の鉤のあるカ形でヤではない（濁点は小さく薄いがガとしてよい）。墨尾蘭峡の第2字はカで濁点なし（4倍で確認）
+k019L	亜細亜 ruby: 細 has ダ (タ + dakuten); 聚 ruby シウ (first kana faint)	現状維持		細の振り仮名はタに濁点2点がはっきりあるダ（ヂではない）：見えるとおりアダア。聚のシは薄いが3画見える
+k020L	亜瑪鑽 ruby: col 1 アマゾネ (ゾ), col 4 アマツネ (ツ, no dakuten) — as written	現状維持		col1 ゾの濁点あり，col4 ツに濁点なし。原本どおり
+k020L	伯西兒 ruby プラジ|ル split over cols 1/2 (ジ faint); 强 ruby キヨウ (キ may carry a dakuten)	現状維持		ジの濁点は薄いが見える。强のキの右に小点1つがあるが濁点の2点にはならない（墨の滲みか）：キのまま
+k021L	怜悧 ruby レイリ: first kana only a faint tick; 合衆 ruby ガウシウ (dakuten on ガ faint)	現状維持		怜の第1字は短い縦画だけが残るがレの起筆と見てよい。ガの濁点ははっきり見える
+k022L	貌: right part read 皃 (貌), could be 兒 (貎)	現状維持		旁は白＋儿の皃（臼の形ではない）→貌
+k023L	新 ruby シン: paper damaged, only a レ-like stroke visible; 貌: right part 皃	現状維持		紙の損傷でシは見えず，ンのみ残る。k022のシンプリタニアに合わせシンでよい。貌は皃形
+k023L	割注 ラプ|ラトレ: third kana of left line レ (ル expected); 合衆 ruby ガツシウ	現状維持		左行はラ・ト・レで，レは一画（ルの左画なし）：見えるとおり。合衆の第2字は小さな3点のツ（ウではない）
+k023L	商館 ruby シヤウクワン (first kana faint)	現状維持		シの3画は薄いが見える
+k024L	臥兒狼德 ruby グルウルランド: fifth kana small (ラ?), sixth ン/レ unclear	現状維持		第5字は点＋フ形のラ，第6字は点から右上へ続く一筆のン（縦画で始まるレとは違う）。第2字はレの左に臥の人画が接していてルかレか紛らわしいが，ル（ノ＋レ）と見てよい
+k024L	暖 ruby アメヽカ: second kana is an X shape (メ), third ヽ	現状維持		メ（交叉2画）とヽが明瞭。原本の誤り（アタヽカ）は既存の校記どおり
+k024L	斗 ruby ハリ as written; 猟 right part 巛 over 用-like, entered 猟	現状維持		ハリ明瞭。猟もそのまま
+k025L	新思可齊亜 ruby last kana エ (label has ア); 高隆 ruby カウリユウ	修正	新思可齊亜《シンスコシキヱ》／高隆《カウリヤウ》	末字はヱ形（上画右端が三角の輪）。高隆の第4字は交叉する斜画のあるヤ形（本書のユとは違う）。いずれも推定，ruby_C.tsv参照。隆にリヤウの音はないので校記に残すのがよい
+k009L	col 1 カイセ。海: the closing mark after セ is small and broken (circle?)	現状維持		セの下に小さな横長の欠けた輪（6倍で確認）。前の「ト。ビユスカイセ」の開きの。と対になる閉じの。と見てよい
+k009L	col 4 歐邏巴 ruby ヱウラワハ as seen	現状維持		邏の2字はラとワ（ワは上が開いた形），巴はハで濁点なし。見えるとおりヱウラワハ。意図はヱウロツハだろうが，それは既存の校記で扱う
+k009L	col 5 其地ヲ: ヲ written as コ + separate ノ; 増盛 ruby ゾウセイ: last kana a bent stroke	現状維持		ヲはコ＋離れたノの形でヲ。増盛の第4字は短い折れ画でイと読める（ーより斜めに起筆）
+k010L	字形 col 4 郭逬浛尾: 3rd char nearest 浛 (or 沿?); ruby コツペンパーカ: the kana after パ is a short vertical stroke (ー or イ)	修正	郭逬浛尾《コツペンパアカ》	字形は氵＋八の下にムで浛のまま（沿の口ではない）。振り仮名パの次は上に小輪のある縦画でア（ー・イではない）。推定
+k010L	col 1 割注 left 部: small tick at the upper right of 部 (stray?)	現状維持		部の阝の起筆（耳の上端）が少し離れて見えるもの。別の記号ではない
+k011L	割注 left 諾而勿惹亜: 諾 written 言+若; ruby ノルエシア, ル has a dakuten-like mark	現状維持		諾は言＋若で諾。ルの左にかすれた墨があるが右上の濁点2点ではない（7倍で確認）。ノルエシアのまま
+k011L	col 3 斯督汎福兒摸: 3rd char 氵+凡 (汎); ruby ストクフヲルム	現状維持		氵＋凡（几の中に点）で汎。振り仮名ストクフヲルム明瞭
+k011L	col 8 高業尤: 1st char written 高 (not 商)	現状維持		亠＋口＋冂＋口の高で，商の丷・八はない
+k011L	col 3 都府ヲ: ヲ with a short first stroke, looks like ラ	未決		同頁の他のヲ（col 6 ヲ善・ヲ分テ）は短い第1画＋中の横画＋フの3画だが，ここは短い第1画＋フだけで中の横画がなく，字形はラ。文意はヲなので本文はヲのままとし，校記に「原本ラ形」と残すのがよい
+k012L	col 2/3 窩 / 窩所的: each 窩 has ruby オ (2nd one with an extra dot, ヲ?); 所的 ruby スト	現状維持		どちらもオ（十字＋はね）。2つ目の右上の小点は余分な墨で，ヲ（フ形）にはならない
+k012L	col 4 歐邏巴 ruby ヱウラウバ as seen	修正	歐邏巴《ヱウラウハ》	ヱウラウは見えるとおり。最後のハに濁点が見えない（5倍）。推定
+k012L	col 7 熟練 ruby シユクレン: 2nd/3rd kana small and cramped (ユ, ク?)	現状維持		シ・小さいユ・ク・レ・ンと読める
+k012L	col 9 變更急速 ruby ヘンカウキウソン: last kana looks like ン (ソク intended?)	修正	變更急速《ヘンカウキウソク》	最後の字の長画は右上から左下へ払う（ンは左下から右上へはね上げる：同じ振り仮名のヘンのンと比較）。ク形。推定
+k013L	col 1 諾爾勿惹亜 ruby ノルエシア: 4th kana written like レ (cf. k011)	現状維持		点1つ＋右上へはね上げる画で，本書のシの書きぶり（点が小さい）。第3字はヱ形（ruby_C.tsv 参照）
+k013L	col 2 性: small フ-like stroke at its upper right; 温柔 ruby ヲンヂウ (ヂ could be ギ)	現状維持		性の右上に小さなフ形の1画が単独である（温のヲとは離れていて別物）。性の振り仮名としては読めず，衍画・汚れとして録文しない。ヂはチ形に濁点でギ（キ形）ではない
+k013L	col 3 教諭ス: a small フ-like stroke after ス, right of 氣 (stray?)	現状維持		氣の第1画（气の上の丿）が離れて書かれたもの。記号ではない
+k013L	col 4 撒揚 ruby サントウ as written (サン at 撒, トウ at 揚)	現状維持		サン・トウとも明瞭
+k014L	挐: 如 over 手 (挐 = 拏), ruby ニユ (second kana ユ with a smudge); 各鎮 ruby looks カリチン	現状維持		挐は如＋手で挐のまま。振り仮名はニ・ユ（右下の墨だまりは汚れ）・ビ。各鎮はカリ・チンと明瞭に書かれている（カクの誤記と思われるが原本どおり；校記に残してよい）
+k014L	col 3 テ、: small dot below テ, left of centre (may be a stain)	修正	テ其首府ヲ該禄《ガイロ》ト云…（、を削る）	テの左下の点は本書の読点よりずっと小さく，位置も字の右下ではない（3倍で確認）。汚れと見て削る。推定
+kun_014	labels.yaml # ? reading (阨入多《エヂフト》)	修正	阨入多《ヱヂフト》	図版の振り仮名は4字で，第2字チに濁点あり（ヂ），フ・ト明瞭。読みは本文k014と一致。第1字は上画右端に輪のあるヱ形（本文 #179 と同じ）。推定。ヱ形の扱いを全体で統一するならそれに従う

@@ -1,0 +1,16 @@
+# 坤 scan 007 L: 翁加里亜. 9 columns.
+# 確認済 2026-11-14: col 1 ロドミリー。: the circle after ー is open (ɔ-shaped)
+# 確認済 2026-11-14: col 2 starts with a circle above セ (opening mark of セーベルゲン, above the column top); the tool cannot start a column with 。, so it is written after 及ビ at the end of col 1
+# 確認済 2026-11-14: 翁加里亜 ruby ヲンカリア: no dakuten seen on カ
+# 確認済 2026-11-14: col 3 クルマーナ: last kana ナ written like 十
+# 確認済 2026-11-14: col 5 窩窩斯甸禮畿: 畿 here written with ⺮-like top (幺幺), cf. k006
+# col 9 "column 10" in work/cols is the fore-edge (paper stack), no text
+翁加里亜《ヲンカリア》此國北ハ。ロドミリー。ニ接シ東ハ。ワラシエ。及ビ。
+セーベルゲン。ニ隣リ南ハ。スラホニー。及ビ。セルビー。ニ界
+ス西ハ。クルマーナ。ニ境《サカイ》ス全国二分ニ別《ワカレ》又四道ニ分ツ第
+一ノ都府ヲ。プレスビユルク。ト云往古ハ自立ノ王国ニシ
+テ兵威《ヘイイ》近隣《キンリン》ヲ服従《フクジウ》ス今ハ窩窩斯甸禮畿《ヲヽステンレイキ》ニ屬ス人物戰ヲ
+善《ヨク》シ思慮《シリヨ》ニ長ジ其君主ニ信従《シンジウ》シテヨリ節ヲ守ル全國山
+多シテ氣候北部ハ冬月｜嚴寒《ゲンカン》ニシテ南部ハ夏《カ》月｜炎熱《エンネツ》ナル
+處アリ土地肥饒ニシテ穀物ヨク熟ス北極地ヲ出ル叓四
+十四度ヨリ四十八度ニ至ル

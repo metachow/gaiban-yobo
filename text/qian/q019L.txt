@@ -1,0 +1,11 @@
+# 乾 scan 019 L: 百兒西亜. 7 columns.
+# 度兒挌: 3rd char has 扌 (挌), unlike 都兒格 elsewhere (木) -- user 2026-11-15, checked on the scan
+# 確認済 2026-11-14: c1 割注 又｜百兒《ハル》: ハ may be パ; c3 此国二部 (read 二 "two", 2026-11-15; was ニ): the char after 国 looks like ニ (strokes partly broken, with set-off dots around); 国 with 王 inside
+# 確認済 2026-11-14: c3 。イ。スハン。: circles as written, ン written like レ; c5 燥 ruby ゾウ (dakuten?); c6 饒 ruby ニユウ
+百兒西亜《ペルシア》〔又｜百兒《ハル》|齊亜《シア》〕此國北ハ魯西亜《ロシア》及ビ加烏葛須思《カウカシユス》所領ニ隣
+リ東ハ印度ニ接《セツ》シ南ハ印度海ニ限リ西ハ度兒挌《トルコ》ヲ界ト
+ス此国二部十五道ニ分ツ都府ヲ。イ。スハン。ト云人物一ナ
+ラズ諸藝術ヲ行フト雖《イエドモ》精熟《セイジユク》ニ至ル者少シ尤｜他邦《タノクニ》ノ文學
+ヲ習フ者又多シ氣候夏長ク冬短シ天氣｜燥熱《ゾウネツ》ニシテ雨露
+アル叓ナシ五｜穀《コク》富饒《フニユウ》ニシテ大小ノ麥ヲ産ス北極地ヲ出
+ル叓二十五度ヨリ四十三度ニ至ル

@@ -1,0 +1,24 @@
+# notes_kun.md — questions from translating k003L–k026R
+
+- k006L: page headed 獨逸都 but describes Austria (窩々斯甸禮畿 named as 獨逸帝本國); translated as written, note 1.
+- k007L: クルマーナ (west neighbour of Hungary) unidentified (Croatia? Germania?); left in katakana, note 2. セーベルゲン = Siebenbürgen (differs from k004's セーヘンベルケン).
+- k007L: 「其君主ニ信従シテヨリ節ヲ守ル」, the ヨリ is unclear; rendered "keep faith the more firmly".
+- k008L: ミーコウ = Miechów (推, as glossary); 獨逸都連合州 (ruby ドイツレンガウ) rendered "German Confederation" in note; ガラカウ in text = カラカウ (Kraków).
+- k008L: 〔glossary〕 孛漏生 first appears here in the sentence on the republic; I read 魯西亞獨逸都孛漏生等 as the joint protecting powers.
+- k009L: 多勒多 read マトリタ; translated Madrid, note 1.
+- k010L: 割注 lists 3 parts (Denmark, Faroes, Iceland) but the text then says only Iceland remains a dependency; translated as written. カツテガツト romanized Katsutegatsuto (glossary has Kattegatto).
+- k011L: 「北極地ヲ出ル事西國ニ亘テ」 — 西國 taken as "the two countries" (Sweden and Norway); doubtful.
+- k012L: 51 鎮 vs 40+13 = 53 in the 割注 (note 2). 奥蝦夷 translated "Oku-Ezo". 北高海 = Caspian (note 1).
+- k013L: label 依蘭上 / text 依蘭土 (note 1); head_zh keeps the label form 依兰上. Reading イヽスランド = Iisurando, but the Denmark page has エイスランド.
+- k015L: 泥乂利西亞 glossed "Nigritia"; the Ethiopian-race note added.
+- k016L: アボシイ identified as Abomey only 推; 黑地兀皮亞 note added (not in the glossary notes as page k016L exactly).
+- k018L: text ruby シンガラナタ, label ダ — used Shingaranada throughout. 3 Guianas: 為亞那 repeated with 割注 owner; "和蘭ノ所有トナル" is wrong historically (Spanish), note 1. 孛露 ruby ペーリキ (slip) used Pēri.
+- k019L: 「亞細亞人此邦ノ人ヲ號シテ長人ト云」 — "Asia" may be a slip for Europe; translated as written.
+- k020L: 割注 on the name's origin: translated "named after the one in Asia near the Caspian" (the ancient Amazons); read アマツネ河 as the river.
+- k021L: 東紅海 (note 1: probably Gulf of California, 推); 奉行 rendered "governor".
+- k022L: 新貌利太泥亞 = British North America, note 1.
+- k023L: ラプラトレ kept as printed (Labrador expected; 校記); "小人" note.
+- k025L: ruby シンスコシキヱ vs label シンスコシキア — used the label form throughout. ハルリハキス romanized Harurihakisu (glossary has a stray space).
+- k026R: 印本 in 「船の印本お添」 read as 船の印 (the ships' marks/flags) "added"; doubtful. 
+- k026R/k026L: the booksellers' list pairs the 15 shops with the 15 place entries by row; the 3rd entry (小林新兵衛) has only 同, rendered "the same as above". Readings of 播摩屋 (Harimaya?), 英文藏 (Eibunzō) are guesses. Date 乙卯 = kinoto-u.
+- Glossary gaps: 勿搦祭亞 etc. fine; no entries for 窩窩斯甸 variants beyond the above; 英吉利 used for 暎咭唎 as the same land (k018L 英吉利 ruby イギリス, glossary エンゲランド).

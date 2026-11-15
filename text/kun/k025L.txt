@@ -1,0 +1,14 @@
+# 坤 scan 025 L: 新思可齊亜. 8 columns (7 text + end title).
+# 確認済 2026-11-14: 新思可齊亜 ruby last kana エ (label has ア); 高隆 ruby カウリユウ (fourth kana small, ユ/ヤ?)
+# col 1 海ニ限リ: ニ is small, at the lower right of 海 (looks like an insertion)
+# col 2: ボストン has no 。 marks; ブロンス has 。 only after
+# col 8: end title 外蕃容貌圖画終 in larger characters
+# Not set: owner's signature 赤見 and red square seal at the foot of c9 (bottom left)
+新思可齊亜《シンスコシキヱ》此國北ハ。ブレトン島ニ界ヒ東ハ大北海ニ限リ
+南ハ合衆国ボストンニ隣ル西ハ新ブロンス。ニ陸續ス全
+國七州ニ分ツテ其首府ヲ。ハルリハキス。ト云｜暎咭唎《イキリス》ニ屬《ゾク》
+ス人物ノ風俗同シカラズ多ハ西洋人種ナリ氣候總テ寒
+冷ニシテ朝夕｜大霧《タイム》アリ夏月ハ炎熱ナリ土地｜頗《スコブ》ル高隆《カウリヤウ》ニ
+シテ能ク諸穀ヲ産ズ北極地ヲ出ル叓三十六度ヨリ四十
+七度ニ至ル
+外蕃容貌圖画終
